@@ -1,2 +1,2 @@
 # CarreraProyecto
-Carrera Desarrollador Full Stack MERN Proyecto FCT
+Carrera Desarrollador Full Stack MEAN Proyecto FCT
