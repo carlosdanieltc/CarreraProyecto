@@ -33,5 +33,5 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
 ### Sesión 2: 08/04/2022
  * Aprendimos con un primer ejemplo a vincular Git con GitHub por medio de un software llamado bat. Lo podemos ver a continuación:
    https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturaSOBat.png
- 
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturaSOBat.png)
 
