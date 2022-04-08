@@ -46,5 +46,5 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaSubirFichero1.png)
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaSubirFichero2.png)
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaRepoPruebaCreacionArchivo.png)
- 
+ * Vimos el comando **git checkout** el cual recupera/trae algo de la rama principal (master por defecto), por medio del modificador **--** especificamos el archivo a traer. En este primer ejemplo utilizamos también una etiqueta que referencie a un identificador, en este caso es **HEAD** el cual es el puntero a la ultima revisión, por lo que finalmente la forma de recuperar los ficheros sería **git checkout HEAD -- .** y los recuperaríamos.
   
