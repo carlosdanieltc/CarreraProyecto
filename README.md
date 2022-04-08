@@ -33,4 +33,9 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
 ### Sesión 2: 08/04/2022
  * Aprendimos con un primer ejemplo a vincular Git con GitHub por medio de un software llamado bat. Lo podemos ver a continuación:
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturaSOBat.png)
-
+ * Vimos el comando necesario para vincularnos a un repositorio, utilizamos: **git remote add origin ruta** donde **ruta** es la direccion del repositorio. Por lo que en nuestro ejemplo quedaría **git remote add origin https://github.com/sharkdp/bat**. Se suele usar **origin** por convención ya que suele indicar algo que se encuentra remoto.
+ * Utilizamos **git fetch origin**: Para conectarnos y ver lo que contiene **origin**.
+ * Vimos el comando **git pull origin master**: donde git pull indica "descarga", en este caso "origin" (lo que vamos a descargar) en nuestra rama actual que es "master".
+ * Vimos **git branch -v -a**: Esto nos muestra las ramas que tenemos disponibles/a las que estamos conectados y somos capaces de ver.
+ * Ahora, luego de ejecutar correctamente los comandos anteriores, si ejecutamos ls -l vemos que hemos descargado todo lo que se ha encontrado en la red.
+ ![Texto alternativo]()
