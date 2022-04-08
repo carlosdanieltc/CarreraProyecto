@@ -39,3 +39,4 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
  * Vimos **git branch -v -a**: Esto nos muestra las ramas que tenemos disponibles/a las que estamos conectados y somos capaces de ver.
  * Ahora, luego de ejecutar correctamente los comandos anteriores, si ejecutamos ls -l vemos que hemos descargado todo lo que se ha encontrado en la red.
  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaDescargaDeRed.png)
+ * dd
