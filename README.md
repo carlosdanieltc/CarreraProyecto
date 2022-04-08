@@ -7,10 +7,11 @@ Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y 
 En este curso aprenderemos a como utilizar y dominar Git, usando la linea de comandos, lo que nos permitirá desenvolvernos en cualquier entorno. 
 ### Sesión 1: 07/04/2022
   * Aprendimos lo que es Git, una herramienta (de Software libre) de control de versiones la cual nos ayudará en el proceso de ciclo de vida de nuestro desarrollo de software. Diseñada por Linus Torvalds.
+  * Empezamos creando una carpeta como carpeta padre la cual utlizaríamos para las pruebas de los comandos de Git y donde guardaremos el resto de ejercicios que vayamos haciendo.
   * Aprendimos los posibles **ESTADOS** de un fichero en GIT, como pueden ser:
     1. **Confirmado (commited).**
     2. **Modificado (untracked).**
-    3. **Preparado (staged). **
+    3. **Preparado (staged).**
   * Aprendimos las secciones principales de un proyecto de Git.
     1. Git Directory (Directorio de Git).
     2. Working directory (Directorio de trabajo).
@@ -26,7 +27,9 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
     7. Creación del archivo **.gitignore** el cual sirve para indicarle a Git qué archivos o carpetas ignorar de un proyecto.
     8. **git difftool**: Comando que nos permite comparar y editar archivos.
     9. **git mv fichero fichero2**: Renombrar ficheros donde fichero2 será el nuevo nombre de fichero.
-    10. **git show**:
+    10. **git show**:El comando git show puede mostrar un objeto Git de una manera simple y legible por humanos.
+    11. **git init**: El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git
   * Aprendimos a lanzar el difftool por el TkDiff en lugar del visor del propio Git (ya que es muy poco visual).
-### Sesión 2:
+### Sesión 2: 08/04/2022
+ * Aprendimos con un primer ejemplo a vincular Git con GitHub por medio de un software llamado bat. 
 
