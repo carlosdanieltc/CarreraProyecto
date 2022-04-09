@@ -51,3 +51,4 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
 ### Sesión 3:09/04/2022
  * Hemos visto el comando de **git revert** el cual sirve para deshacer el historial de commits de un repositorio.
  * Aprendimos el trabajo con ramas (branch), las cuales son una utilidad para llevar mejor control del código. Se trata de una bifurcación del estado del código que crea un nuevo camino de cara a la evolución del código, en paralelo a otras ramas que se puedan generar. Mediante el comando **git branch** el cual permite crear, enumerar y eliminar ramas, así como cambiar su nombre.
+![Texto alternativo]()
