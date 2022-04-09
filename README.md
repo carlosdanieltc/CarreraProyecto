@@ -1,7 +1,7 @@
 #### CarreraProyecto
 
 # Carrera Desarrollador Full Stack MEAN Proyecto FCT
-Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y Node.js. En ella aprenderemos a crear aplicaciones web completas. Podremos desarrollar la parte del servidor y la del cliente con JavaScript, utilizando las cuatro tecnologías que conforman este stack de desarrollo, uno de los más usados en la actualidad por miles de programadores y empresas. La carrera está compuesta por cada uno de los siguientes cursos:
+Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y Node.js. En ella aprenderemos a crear aplicaciones web completas. Podremos desarrollar la parte del servidor y la del cliente con JavaScript, utilizando las cuatro tecnologías que conforman este stack de desarrollo, uno de los más usados en la actualidad por miles de programadores y empresas. La carrera tiene una duración total de 42H y 10M, y está compuesta por cada uno de los siguientes cursos:
  * HTML5 y CSS3.
  * JavaScript Profesional.
  * Curso Git.
@@ -66,3 +66,8 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
  * Vimos el comando necesario a la hora que queramos borrar una rama, sería con **git branch -d new_master**.
  * Anteriormente vimos los comandos para crear una rama (**git branch nueva-rama rama-origen**) y para cambiarnos a dicha rama (**git checkout new_master**). Estos dos se pueden abreviar juntándose en uno solo con el comando **git checkout -b new-rama**.
  * Conocimos el comando **git blame** el cual nos sirve para examinar el contenido de un archivo línea a línea y ver cuándo se ha modificado cada línea y quién es el autor de las modificaciones.
+ * Aprendimos una funcionalidad que es **git rebase** la cual nos sirve para reescribir la historia de un proyecto. Puede ser útil para un proyecto el cual lleva mucho tiempo, de forma que con un historial más limpio podamos entender más fácilmente que ha sucedido en el y los cambios que se han ido haciendo.
+ * Aprendimos lo que son las etiquetas de código, usada típicamente para darle nombre a una versión de nuestro código. Las etiquetas suelen dividir en dos tipos, ligeras y anotadas siendo estas útimas las que albergan más información y se guardan en la base de datos como objetos enteros. Se hace por medio del comando **git tag**.
+ * Vimos como "movernos en el tiempo" de nuestro proyecto, de forma que suponiendo que hemos tenido a lo largo del tiempo diferentes commits, los veamos reflejados como hitos de tiempo a los cuales podemos volver. Esta opción la haremos también con el comando **git checkout** el cual tiene múltiples funcionalidades, en este caso quedaría **git checkout ID del commit**.
+ * Vimos una funcionalidad llamada **git stash** la cual nos permite hacer una especie de "foto" que mandamos a una especie de "portapapeles" y que nos permite almacenar en un sitio temporal lo que tengamos en el área de staging. Esto nos permitirá recuperar, si queremos, esa información que capturamos.
+
