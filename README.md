@@ -1,7 +1,15 @@
 #### CarreraProyecto
 
 # Carrera Desarrollador Full Stack MEAN Proyecto FCT
-Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y Node.js. En ella aprenderemos a crear aplicaciones web completas. Podremos desarrollar la parte del servidor y la del cliente con JavaScript, utilizando las cuatro tecnologías que conforman este stack de desarrollo, uno de los más usados en la actualidad por miles de programadores y empresas.
+Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y Node.js. En ella aprenderemos a crear aplicaciones web completas. Podremos desarrollar la parte del servidor y la del cliente con JavaScript, utilizando las cuatro tecnologías que conforman este stack de desarrollo, uno de los más usados en la actualidad por miles de programadores y empresas. La carrera está compuesta por cada uno de los siguientes cursos:
+ * HTML5 y CSS3.
+ * JavaScript Profesional.
+ * Curso Git.
+ * Angular 6.
+ * Curso de Angular 4.
+ * Buenas practicas en Angular.
+ * Node.js y Express.
+ * Curso de MongoDB.
 
 ## Curso Git
 En este curso aprenderemos a como utilizar y dominar Git, usando la linea de comandos, lo que nos permitirá desenvolvernos en cualquier entorno. 
