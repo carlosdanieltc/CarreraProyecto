@@ -15,7 +15,7 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
   * Aprendimos las secciones principales de un proyecto de Git.
     1. Git Directory (Directorio de Git).
     2. Working directory (Directorio de trabajo).
-    3. Staging area (Área de preparación). (INTRODUCCION)
+    3. Staging area (Área de preparación). 
   * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
   * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
     1. **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
@@ -47,4 +47,7 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaSubirFichero2.png)
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaRepoPruebaCreacionArchivo.png)
  * Vimos el comando **git checkout** el cual recupera/trae algo de la rama principal (master por defecto), por medio del modificador **--** especificamos el archivo a traer. En este primer ejemplo utilizamos también una etiqueta que referencie a un identificador, en este caso es **HEAD** el cual es el puntero a la ultima revisión, por lo que finalmente la forma de recuperar los ficheros sería **git checkout HEAD -- .** y los recuperaríamos.
- * Vimos un comando considerado bastante potente ya que sirve para deshacer cualquier cambio local en el estado de un repositorio de Git, ese comando es **git reset** y lo usamos de esta forma **git reset --hard HEAD~1** donde **head** (apuntador a última revisión, cabecera) y --hard.
+ * Vimos un comando considerado bastante potente ya que sirve para deshacer cualquier cambio local en el estado de un repositorio de Git, ese comando es **git reset** y lo usamos de esta forma **git reset --hard HEAD~1**.
+### Sesión 3:09/04/2022
+ * Hemos visto el comando de **git revert** el cual sirve para deshacer el historial de commits de un repositorio.
+ * Aprendimos el trabajo con ramas (branch), las cuales son una utilidad para llevar mejor control del código. Se trata de una bifurcación del estado del código que crea un nuevo camino de cara a la evolución del código, en paralelo a otras ramas que se puedan generar. Mediante el comando **git branch** el cual permite crear, enumerar y eliminar ramas, así como cambiar su nombre.
