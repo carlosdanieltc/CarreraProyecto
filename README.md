@@ -17,9 +17,9 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
   * Aprendimos lo que es Git, una herramienta (de Software libre) de control de versiones la cual nos ayudará en el proceso de ciclo de vida de nuestro desarrollo de software. Diseñada por Linus Torvalds.
   * Empezamos creando una carpeta como carpeta padre la cual utlizaríamos para las pruebas de los comandos de Git y donde guardaremos el resto de ejercicios que vayamos haciendo.
   * Aprendimos los posibles **ESTADOS** de un fichero en GIT, como pueden ser:
-    1. **Confirmado (commited).**
-    2. **Modificado (untracked).**
-    3. **Preparado (staged).**
+   1. **Confirmado (commited).**
+   2. **Modificado (untracked).**
+   3. **Preparado (staged).**
   * Aprendimos las secciones principales de un proyecto de Git.
     1. Git Directory (Directorio de Git).
     2. Working directory (Directorio de trabajo).
