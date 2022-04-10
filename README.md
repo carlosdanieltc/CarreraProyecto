@@ -102,7 +102,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Aprendimos lo que son los atributos de las etiquetas, los cuáles proporcionan información adicional sobre la misma. Ejemplo: **<img src="foto.jpg".../>** donde **src** sería el atributo y **foto.jpg** el valor de dicho atributo.
  * Vimos como poner comentarios en medio de nuestro código con **<!-- Texto del comentario -->**.
  * Observamos la estructura de una página web la cuál es siempre de un árbol **DOM** (Document Object Model) que sería básicamente como un árbol genealógico.
-![Texto alternativo]()
+![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEstructuraBasica.png)
 
  
  
