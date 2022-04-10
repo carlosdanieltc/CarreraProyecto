@@ -121,7 +121,11 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  6. **base**: Establecer ruta por defecto.
  * Vimos distintas opciones para la etiqueta de **meta** las cuáles nos pueden ayudar a mejorar lo que sería el **SEO** (Search Engine Optimization) de nuestra página, las podemos ver en el primer fichero de ejemplo que hicimos: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/estructura.html
  * Vimos distintas etiquetas básicas las cuales podemos ver en la siguiente ruta: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/EtiquetasBasicas.html.
- * 
+ * Vimos los posibles tipos de rutas:
+ 1. Relativas: En relación al propio directorio de donde se encuentra el propio html.
+ 2. Absolutas: En relación al directorio raíz de nuestro disco duro.
+ 3. url: Dirección de internet.
+ Siendo las relativas la mejor opción para evitar cualquier tipo de fallo. Además vimos cómo poner dichos enlaces mediante la etiqueta **<a />** y las opciones que tenemos para ponerlos, que pueden ser tanto en texto como en alguna imágen.  
  
  
  
