@@ -104,12 +104,12 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Observamos la estructura de una página web la cuál es siempre de un árbol **DOM** (Document Object Model) que sería básicamente como un árbol genealógico.
 ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEstructuraBasica.png)
  * Vimos la etiqueta de cabecera **HEAD** la cual no contiene contenido de la propia página sino más bien enlacesd a hojas de estilo, scripts usados, etc. Podemos ver algunas de las siguientes etiquetas en la cabecera:
- 1. **<title >**: Título de la página.
- 2. **<style >**: Hojas de estilo.
- 3. **<meta >**: Describir página web.
- 4. **<link >**: Enlaces a archivos.
- 5. **<script >**: Añadir ficheros JavaScript.
- 6. **<base >**: Establecer ruta por defecto.
+ 1. **title**: Título de la página.
+ 2. **style**: Hojas de estilo.
+ 3. **meta**: Describir página web.
+ 4. **link**: Enlaces a archivos.
+ 5. **script**: Añadir ficheros JavaScript.
+ 6. **base**: Establecer ruta por defecto.
  
  
  
