@@ -106,10 +106,10 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Vimos la etiqueta de cabecera **HEAD** la cual no contiene contenido de la propia página sino más bien enlacesd a hojas de estilo, scripts usados, etc. Podemos ver algunas de las siguientes etiquetas en la cabecera:
  1. **<title>**: Título de la página.
  2. **<style>**: Hojas de estilo.
- 3. <meta>: Describir página web.
- 4. <link>: Enlaces a archivos.
- 5. <script>: Añadir ficheros JavaScript.
- 6. <base>: Establecer ruta por defecto.
+ 3. **<meta>**: Describir página web.
+ 4. **<link>**: Enlaces a archivos.
+ 5. **<script>**: Añadir ficheros JavaScript.
+ 6. **<base>**: Establecer ruta por defecto.
  
  
  
