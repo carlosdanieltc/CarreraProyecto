@@ -110,6 +110,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  4. **link**: Enlaces a archivos.
  5. **script**: Añadir ficheros JavaScript.
  6. **base**: Establecer ruta por defecto.
+ * Vimos distintas opciones para la etiqueta de **meta** las cuáles nos pueden ayudar a mejorar lo que sería el **SEO** (Search Engine Optimization) de nuestra página, las podemos ver en el primer fichero de ejemplo que hicimos: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/estructura.html
  
  
  
