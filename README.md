@@ -97,8 +97,8 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  2. **Git**: Para llevar el control de versiones.
  3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox Nightly**.
  * Usaremos también hojas de referencia (CHEATSHEETS) las cuáles son:
- 1. https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
- 2. https://websitesetup.org/css3-cheat-sheet/
+ 1. https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/htmlcheatsheet.pdf
+ 2. https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/wsu-css-cheat-sheet-gdocs.pdf
 
 
  
