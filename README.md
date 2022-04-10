@@ -79,4 +79,12 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  1. **H**IPER**T**EXT.
  2. **M**ARKUP.
  3. **L**ANGUAJE.
-
+ * Vimos las páginas mas recomendadas a la hora de necesitar solicitar información sobre los temas a ver, que son:
+ 1. https://www.w3schools.com/
+ 2. https://developer.mozilla.org/es/docs/Web/HTML
+ * Vimos lo que es CSS, un lenguaje de diseño gráfico que nos permite definir y crear la presentación de nuestro documento, donde sus siglas significan:
+ 1. **C**ASCADING.
+ 2. **S**TYLE.
+ 3. **S**HEETS.
+ * 
+ 
