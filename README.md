@@ -72,3 +72,11 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
  * Vimos una funcionalidad llamada **git stash** la cual nos permite hacer una especie de "foto" que mandamos a una especie de "portapapeles" y que nos permite almacenar en un sitio temporal lo que tengamos en el área de staging. Esto nos permitirá recuperar, si queremos, esa información que capturamos.
  * Pudimos ver también una explicación de lo que es GitHub y GitLab, plataformas de alojamiento para nuestros proyectos donde podremos crear repositorios y publicarlos bien sea de forma pública o privada. Éstas plataformas son completamente compatibles con la herramienta Git que hemos ido aprendiendo a lo largo de este curso. 
 
+## Curso HTML y CSS3
+En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además de las distintas partes y estructura de una página web. Es un curso básico donde veremos lo imprescindible de ambas tecnologías.
+### Sesión 4: 10/04/2022
+ * Vimos lo que es HTML, un lenguaje de marcado donde sus siglas significan:
+ 1. **H**IPER**T**EXT.
+ 2. **M**ARKUP.
+ 3. **L**ANGUAJE.
+
