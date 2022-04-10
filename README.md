@@ -95,6 +95,11 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
   1.4 **GitLens**.
   1.5 **IntelliSense for CSS**.
  2. **Git**: Para llevar el control de versiones.
- 3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox**.
+ 3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox Nightly**.
+ * Usaremos también hojas de referencia (CHEATSHEETS) las cuáles son:
+ 1. https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
+ 2. https://websitesetup.org/css3-cheat-sheet/
+
+
  
  
