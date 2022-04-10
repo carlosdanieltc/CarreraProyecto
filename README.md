@@ -82,9 +82,19 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Vimos las páginas mas recomendadas a la hora de necesitar solicitar información sobre los temas a ver, que son:
  1. https://www.w3schools.com/
  2. https://developer.mozilla.org/es/docs/Web/HTML
+ 3. https://developer.mozilla.org/es/docs/Web/CSS
  * Vimos lo que es CSS, un lenguaje de diseño gráfico que nos permite definir y crear la presentación de nuestro documento, donde sus siglas significan:
- 1. **C**ASCADING.
- 2. **S**TYLE.
- 3. **S**HEETS.
- * 
+ 4. **C**ASCADING.
+ 5. **S**TYLE.
+ 6. **S**HEETS.
+ * El entorno de trabajo que utilizaremos para este curso será:
+ 1. **Visual Studio Code**: Como editor de código, con algunas exctensiones como:
+  1. **Auto Close Tag**.
+  2. **Auto Rename Tag**.
+  3. **Beautify**.
+  4. **GitLens**.
+  5. **IntelliSense for CSS**.
+ 2. **Git**: Para llevar el control de versiones.
+ 3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox**.
+ 
  
