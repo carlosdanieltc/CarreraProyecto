@@ -40,19 +40,25 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
   * Aprendimos a lanzar el difftool por el TkDiff en lugar del visor del propio Git (ya que es muy poco visual).
 ### Sesión 2: 08/04/2022
  * Aprendimos con un primer ejemplo a vincular Git con GitHub por medio de un software llamado bat. Lo podemos ver a continuación:
+ 
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaSOBat.png)
  * Vimos el comando necesario para vincularnos a un repositorio, utilizamos: **git remote add origin ruta** donde **ruta** es la direccion del repositorio. Por lo que en nuestro ejemplo quedaría **git remote add origin https://github.com/sharkdp/bat**. Se suele usar **origin** por convención ya que suele indicar algo que se encuentra remoto.
  * Utilizamos **git fetch origin**: Para conectarnos y ver lo que contiene **origin**.
  * Vimos el comando **git pull origin master**: donde git pull indica "descarga", en este caso "origin" (lo que vamos a descargar) en nuestra rama actual que es "master".
  * Vimos **git branch -v -a**: Esto nos muestra las ramas que tenemos disponibles/a las que estamos conectados y somos capaces de ver.
  * Ahora, luego de ejecutar correctamente los comandos anteriores, si ejecutamos ls -l vemos que hemos descargado todo lo que se ha encontrado en la red.
+ 
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaDescargaDeRed.png)
  * Aprendimos el comando **git clone** el cual copia/clona el repositorio al que apuntemos en un nuevo directorio, este comando incluye de forma explícita los comandos que usamos anteriormente todos juntos (**git init, git fetch y git pull**).
+ 
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaDescargaDeRed.png)
  * Vimos el comando **git push** el cual sirve para subir los commits al repositorio enlazado.
  * Utlicé para las pruebas un repositorio que tengo ya creado el cual no me importaba ensuciar, es https://github.com/carlosdanieltc/horse-chess . En el cual añadí un archivo por medio de los comandos vistos, este archivo lo llame "readmeeee" y anteriormente no se encontraba en dicho repositorio, hasta que ejecute la siguiente serie de comandos: 
+ 
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaSubirFichero1.png)
+   
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaSubirFichero2.png)
+   
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaRepoPruebaCreacionArchivo.png)
  * Vimos el comando **git checkout** el cual recupera/trae algo de la rama principal (master por defecto), por medio del modificador **--** especificamos el archivo a traer. En este primer ejemplo utilizamos también una etiqueta que referencie a un identificador, en este caso es **HEAD** el cual es el puntero a la ultima revisión, por lo que finalmente la forma de recuperar los ficheros sería **git checkout HEAD -- .** y los recuperaríamos.
  * Vimos un comando considerado bastante potente ya que sirve para deshacer cualquier cambio local en el estado de un repositorio de Git, ese comando es **git reset** y lo usamos de esta forma **git reset --hard HEAD~1**.
@@ -60,8 +66,10 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
  * Hemos visto el comando de **git revert** el cual sirve para deshacer el historial de commits de un repositorio.
  * Conocimos el comando **git merge** el cual nos servirá si queremos tomar las lineas independientes de desarrollo creadas por git branch e integrarlas en una sola rama.
  * Aprendimos el trabajo con ramas (branch), las cuales son una utilidad para llevar mejor control del código. Se trata de una bifurcación del estado del código que crea un nuevo camino de cara a la evolución del código, en paralelo a otras ramas que se puedan generar. Mediante el comando **git branch** el cual permite crear, enumerar y eliminar ramas, así como cambiar su nombre. A continuacion vemos como creamos una rama en este **caso new_master** siendo **master** la rama de partida y, por medio del comando **git checkout new_master** saltamos a esta rama que hemos creado.
+ 
 ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaCrearRama.png)
  * A continuación creamos una serie de ficheros en la rama **new_master** y mostramos el contenido de dicha rama, seguidamente hicimos la comparación con la rama **master** y pudimos observar la diferencia entre ambas aún siendo el mismo directorio para las dos (el directorio en el que estamos trabajando), como vemos a continuación: 
+ 
 ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/CapturasGit/CapturaComparaci%C3%B3nEntreRamas.png)
  * Vimos el comando necesario a la hora que queramos borrar una rama, sería con **git branch -d new_master**.
  * Anteriormente vimos los comandos para crear una rama (**git branch nueva-rama rama-origen**) y para cambiarnos a dicha rama (**git checkout new_master**). Estos dos se pueden abreviar juntándose en uno solo con el comando **git checkout -b new-rama**.
