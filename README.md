@@ -26,9 +26,9 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
    3. Staging area (Área de preparación). 
   * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
   * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
-   1. **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
-   2. **git add**: Añade **TODOS** los archivos al stagin area.
-   3. **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
+    1. **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
+    2. **git add**: Añade **TODOS** los archivos al stagin area.
+    3. **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
    4. **git diff**: Comando para comparar cambios entre dos datos de entrada.
    5. **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
    6. **git log**: Comando para explorar el historial, usado por si necesitas buscar una version concreta de un proyecto.
