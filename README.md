@@ -89,9 +89,9 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  3. **S**HEETS.
  * El entorno de trabajo que utilizaremos para este curso será:
  1. **Visual Studio Code**: Como editor de código, con algunas extensiones como:
-   1. **Auto Close Tag**.
-   2. **Auto Rename Tag**.
-   3. **Beautify**.
+  1.1 **Auto Close Tag**.
+  1.2 **Auto Rename Tag**.
+  1.3 **Beautify**.
   1.4 **GitLens**.
   1.5 **IntelliSense for CSS**.
  2. **Git**: Para llevar el control de versiones.
