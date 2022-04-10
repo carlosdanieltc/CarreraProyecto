@@ -125,6 +125,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  1. Relativas: En relación al propio directorio de donde se encuentra el propio html.
  2. Absolutas: En relación al directorio raíz de nuestro disco duro.
  3. url: Dirección de internet.
+ 
  Siendo las relativas la mejor opción para evitar cualquier tipo de fallo. Además vimos cómo poner dichos enlaces mediante la etiqueta **<a />** y las opciones que tenemos para ponerlos, que pueden ser tanto en texto como en alguna imágen.  
  
  
