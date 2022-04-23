@@ -137,7 +137,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Vimos un repaso de los formularios **form** y sus posibles atributos y etiquetas (**label**). Como **select**, sus respectivos **input**, **textarea**, botones y los tipos que hay (**button, reset, submit**) y **fieldset** para agrupar campos del formulario.
  * Repasamos los distintos tipos de inputs que existen, como **button**, **checkbox**, **color**, **date**, **image**, **number**, **radio**, **password**, **text**, **submit**, **tel**, **email**, entre otros. 
  * Vimos, gracias a html 5 test: https://html5test.com/index.html que tipos de inputs estan soportados por ciertos navegadores. 
- * Realizamos un ejercicio bastante completo de lo visto hasta ahora, donde se abarcan apartados como las tablas, un formulario, distintos inputs y un poco de estilo por medio de css en línea, lo podemos ver en el siguiente enlace: 
+ * Realizamos un ejercicio bastante completo de lo visto hasta ahora, donde se abarcan apartados como las tablas, un formulario, distintos inputs y un poco de estilo por medio de css en línea, lo podemos ver en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/ejercicio_formularios.html 
  
 
  
