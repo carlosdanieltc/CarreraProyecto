@@ -130,7 +130,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Hicimos un primer ejercicio bastante básico en el que mezclamos enlaces con imágenes además de implementar un poco de CSS en línea, que no es más que CSS implementado en la propia etiqueta con el atributo **<style>**, lo podemos ver en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/Ejercicio1Enlaces_Imagenes/ejer_img.html.
 ### Sesión 5: 23/04/2022
  * Repasamos los distintos tipos de listas que hay **<li>** que podrían ser las ordenadas **<ol>** y las desordenadas **<ul>**, además de las de definición **(dl)**.
- * Repasamos las tablas **<table>** con sus filas **<tr>** y para sus celdas con **<td>** o **<th>** donde (th) sería en negrita y centrado. 
+ * Repasamos las tablas **table** con sus filas **<tr>** y para sus celdas con **<td>** o **<th>** donde (th) sería en negrita y centrado. 
  * Repasamos también las posibles etiquetas de table, como podrían ser **colgroup**, **caption**, **thead**, **tbody**, **tfoot**.
  * También repasamos las tablas complejas **(rowspan y colspan)**, dichos atributos se utilizan para que una celda ocupe mas filas o más columnas.
  * 
