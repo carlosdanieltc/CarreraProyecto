@@ -134,7 +134,9 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Repasamos también las posibles etiquetas de table, como podrían ser **colgroup**, **caption**, **thead**, **tbody**, **tfoot**.
  * También repasamos las tablas complejas **(rowspan y colspan)**, dichos atributos se utilizan para que una celda ocupe mas filas o más columnas.
  * Repasamos algunos estilos para la tabla con css en linea, como **border** para los bordes de la tabla y **collapse** para cambiar el estilo del los propios bordes.
+ * Vimos un repaso de los formularios **form** y sus posibles atributos y etiquetas (**label**). Como **select**, sus respectivos **input**, **textarea**, botones y los tipos que hay (**button, reset, submit**) y **fieldset** para agrupar campos del formulario.
  * 
+ 
 
  
  
