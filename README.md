@@ -133,6 +133,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Repasamos las tablas **table** con sus filas **tr** y para sus celdas con **td** o **th** donde (th) sería en negrita y centrado. 
  * Repasamos también las posibles etiquetas de table, como podrían ser **colgroup**, **caption**, **thead**, **tbody**, **tfoot**.
  * También repasamos las tablas complejas **(rowspan y colspan)**, dichos atributos se utilizan para que una celda ocupe mas filas o más columnas.
+ * Repasamos algunos estilos para la tabla con css en linea, como **border** para los bordes de la tabla y **collapse** para cambiar el estilo del los propios bordes.
  * 
 
  
