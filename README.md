@@ -174,6 +174,8 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  
  * Repasamos los pseudoselectores, entre los más usados podemos ver: **:link**, **:visited**, **:checked**, **:hover**, **:empty**, entre otros.
  * Repasamos también los pseudoselectores de posición, entre los más usados podemos ver: **:first**, **:first-child**, **:last**, **:last-child**, **:nth-child(n)**, entre otros.
+ * Vimos los pseudoelementos, los cuáles son palabras clave que se añaden a los selectores, nos indican una parte del elemento y permiten añadir contenido, la sintaxis sería: selector::pseudoelemento{ propiedades css }. Algunos pseudoelementos serían: **::first-line**, **::first-letter**, **::after**, **::before**, **::selected**, entre otros.
+ 
    
  
  
