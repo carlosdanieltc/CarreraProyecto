@@ -96,14 +96,14 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    * **S**TYLE.
    * **S**HEETS.
  * El entorno de trabajo que utilizaremos para este curso será:
-  1. **Visual Studio Code**: Como editor de código, con algunas extensiones como:
-   1.1 **Auto Close Tag**.
-   1.2 **Auto Rename Tag**.
-   1.3 **Beautify**.
-   1.4 **GitLens**.
-   1.5 **IntelliSense for CSS**.
-  2. **Git**: Para llevar el control de versiones.
-  3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox Nightly**.
+   * **Visual Studio Code**: Como editor de código, con algunas extensiones como:
+   **Auto Close Tag**,
+   **Auto Rename Tag**,
+   **Beautify**,
+   **GitLens**,
+   **IntelliSense for CSS**.
+   * **Git**: Para llevar el control de versiones.
+   * **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox Nightly**.
  * Usaremos también hojas de referencia (CHEATSHEETS) las cuáles serán:
   * https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/htmlcheatsheet.pdf
   * https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/wsu-css-cheat-sheet-gdocs.pdf
