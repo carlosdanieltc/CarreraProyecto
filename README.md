@@ -164,6 +164,11 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    * **text:** (Y sus distintas extensiones como -align, -decoration, -indent, etc).
  * Realizamos un primer ejercicio básico donde implementábamos lo visto de css, se puede ver en https://github.com/carlosdanieltc/CarreraProyecto/tree/main/HTML_CSS/Ficheros/Ejercicio_con_selectores.
  
+ Sin CSS
+ ![Sin css](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEjercicioSinCssAplicado.png)
+ 
+ Con CSS
+ ![Con css](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEjercicioConCssAplicado.png)
  
    
  
