@@ -21,9 +21,9 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
     * **Modificado (untracked).**
     * **Preparado (staged).**
   * Aprendimos las secciones principales de un proyecto de Git.
-    1. Git Directory (Directorio de Git).
-    2. Working directory (Directorio de trabajo).
-    3. Staging area (Área de preparación). 
+     1. Git Directory (Directorio de Git).
+     2. Working directory (Directorio de trabajo).
+     3. Staging area (Área de preparación). 
   * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
   * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
     * **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
