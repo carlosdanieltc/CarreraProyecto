@@ -149,6 +149,8 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    * Añadir atributos **alt** a las imágenes.
    * Especificar idioma de la página.
    * Utilizar cabeceras correctamente.
+ * Dimos inicio al tema de CSS, el cual es un lenguaje de diseño gráfico utilizado para definir y crear la presentación de un documento escrito en un lenguaje de marcado, como lo es HTML.
+ * 
    
  
  
