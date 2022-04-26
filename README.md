@@ -162,6 +162,9 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    * **border:** (Y sus distintas extensiones como -color,-style, -width, -left, etc).
    * **font:** (Y sus distintas extensiones como -family, -weight, -size, etc).
    * **text:** (Y sus distintas extensiones como -align, -decoration, -indent, etc).
+ * Realizamos un primer ejercicio básico donde implementábamos lo visto de css, se puede ver en https://github.com/carlosdanieltc/CarreraProyecto/tree/main/HTML_CSS/Ficheros/Ejercicio_con_selectores.
+ 
+ 
    
  
  
