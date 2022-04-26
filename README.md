@@ -17,26 +17,26 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
   * Aprendimos lo que es Git, una herramienta (de Software libre) de control de versiones la cual nos ayudará en el proceso de ciclo de vida de nuestro desarrollo de software. Diseñada por Linus Torvalds.
   * Empezamos creando una carpeta como carpeta padre la cual utlizaríamos para las pruebas de los comandos de Git y donde guardaremos el resto de ejercicios que vayamos haciendo.
   * Aprendimos los posibles **ESTADOS** de un fichero en GIT, como pueden ser:
-   1. **Confirmado (commited).**
-   2. **Modificado (untracked).**
-   3. **Preparado (staged).**
+    * **Confirmado (commited).**
+    * **Modificado (untracked).**
+    * **Preparado (staged).**
   * Aprendimos las secciones principales de un proyecto de Git.
    1. Git Directory (Directorio de Git).
    2. Working directory (Directorio de trabajo).
    3. Staging area (Área de preparación). 
   * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
   * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
-   1. **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
-   2. **git add**: Añade **TODOS** los archivos al stagin area.
-   3. **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
-   4. **git diff**: Comando para comparar cambios entre dos datos de entrada.
-   5. **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
-   6. **git log**: Comando para explorar el historial, usado por si necesitas buscar una version concreta de un proyecto.
-   7. Creación del archivo **.gitignore** el cual sirve para indicarle a Git qué archivos o carpetas ignorar de un proyecto.
-   8. **git difftool**: Comando que nos permite comparar y editar archivos.
-   9. **git mv fichero fichero2**: Renombrar ficheros donde fichero2 será el nuevo nombre de fichero.
-   10. **git show**:El comando git show puede mostrar un objeto Git de una manera simple y legible por humanos.
-   11. **git init**: El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git
+    * **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
+    * **git add**: Añade **TODOS** los archivos al stagin area.
+    * **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
+    * **git diff**: Comando para comparar cambios entre dos datos de entrada.
+    * **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
+    * **git log**: Comando para explorar el historial, usado por si necesitas buscar una version concreta de un proyecto.
+    * Creación del archivo **.gitignore** el cual sirve para indicarle a Git qué archivos o carpetas ignorar de un proyecto.
+    * **git difftool**: Comando que nos permite comparar y editar archivos.
+    * **git mv fichero fichero2**: Renombrar ficheros donde fichero2 será el nuevo nombre de fichero.
+    * **git show**:El comando git show puede mostrar un objeto Git de una manera simple y legible por humanos.
+    * **git init**: El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git
   * Aprendimos a lanzar el difftool por el TkDiff en lugar del visor del propio Git (ya que es muy poco visual).
 ### Sesión 2: 08/04/2022
  * Aprendimos con un primer ejemplo a vincular Git con GitHub por medio de un software llamado bat. Lo podemos ver a continuación:
@@ -84,17 +84,17 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
 En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además de las distintas partes y estructura de una página web. Es un curso básico donde veremos lo imprescindible de ambas tecnologías.
 ### Sesión 4: 10/04/2022
  * Vimos lo que es HTML, un lenguaje de marcado donde sus siglas significan:
- 1. **H**IPER**T**EXT.
- 2. **M**ARKUP.
- 3. **L**ANGUAJE.
+  1. **H**IPER**T**EXT.
+  2. **M**ARKUP.
+  3. **L**ANGUAJE.
  * Vimos las páginas mas recomendadas a la hora de necesitar solicitar información sobre los temas a ver, que son:
- 1. https://www.w3schools.com/
- 2. https://developer.mozilla.org/es/docs/Web/HTML
- 3. https://developer.mozilla.org/es/docs/Web/CSS
+  * https://www.w3schools.com/
+  * https://developer.mozilla.org/es/docs/Web/HTML
+  * https://developer.mozilla.org/es/docs/Web/CSS
  * Vimos lo que es CSS, un lenguaje de diseño gráfico que nos permite definir y crear la presentación de nuestro documento, donde sus siglas significan:
- 1. **C**ASCADING.
- 2. **S**TYLE.
- 3. **S**HEETS.
+  1. **C**ASCADING.
+  2. **S**TYLE.
+  3. **S**HEETS.
  * El entorno de trabajo que utilizaremos para este curso será:
  1. **Visual Studio Code**: Como editor de código, con algunas extensiones como:
   1.1 **Auto Close Tag**.
@@ -105,8 +105,8 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  2. **Git**: Para llevar el control de versiones.
  3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox Nightly**.
  * Usaremos también hojas de referencia (CHEATSHEETS) las cuáles serán:
- 1. https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/htmlcheatsheet.pdf
- 2. https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/wsu-css-cheat-sheet-gdocs.pdf
+  * https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/htmlcheatsheet.pdf
+  * https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/wsu-css-cheat-sheet-gdocs.pdf
  * Aprendimos lo que son los atributos de las etiquetas, los cuáles proporcionan información adicional sobre la misma. Ejemplo: **<img src="foto.jpg".../>** donde **src** sería el atributo y **foto.jpg** el valor de dicho atributo.
  * Vimos como poner comentarios en medio de nuestro código con **<!-- Texto del comentario -->**.
  * Observamos la estructura de una página web la cuál es siempre de un árbol **DOM** (Document Object Model) que sería básicamente como un árbol genealógico.
@@ -122,9 +122,9 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Vimos distintas opciones para la etiqueta de **meta** las cuáles nos pueden ayudar a mejorar lo que sería el **SEO** (Search Engine Optimization) de nuestra página, las podemos ver en el primer fichero de ejemplo que hicimos: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/estructura.html
  * Vimos distintas etiquetas básicas las cuales podemos ver en la siguiente ruta: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/EtiquetasBasicas.html.
  * Vimos los posibles tipos de rutas:
- 1. Relativas: En relación al propio directorio de donde se encuentra el propio html.
- 2. Absolutas: En relación al directorio raíz de nuestro disco duro.
- 3. url: Dirección de internet.
+  * Relativas: En relación al propio directorio de donde se encuentra el propio html.
+  * Absolutas: En relación al directorio raíz de nuestro disco duro.
+  * url: Dirección de internet.
  
  Siendo las relativas la mejor opción para evitar cualquier tipo de fallo. Además vimos cómo poner dichos enlaces mediante la etiqueta **<a />** y las opciones que tenemos para ponerlos, que pueden ser tanto en texto como en alguna imágen.  
  * Hicimos un primer ejercicio bastante básico en el que mezclamos enlaces con imágenes además de implementar un poco de CSS en línea, que no es más que CSS implementado en la propia etiqueta con el atributo **<style>**, lo podemos ver en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/Ejercicio1Enlaces_Imagenes/ejer_img.html.
