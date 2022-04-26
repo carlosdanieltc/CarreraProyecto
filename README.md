@@ -178,7 +178,11 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Aprendimos sobre los estilos por defecto y las hojas de reseteo, los estilos por defecto son estilos que cada navegador trae por defecto, por lo que nuestra página podría verse diferente dependiendo del navegador usado. Para esto utilizaremos las hojas de reseteo, las cuáles eliminan dichos estilos, por ejemplo los distintos tamaños o negrita de los distintos títulos (h1,h2, etc). Algunas hojas de reseteo más comunmente usadas pueden ser las siguientes:
    * https://meyerweb.com/eric/tools/css/reset/
    * https://cssdeck.com/blog/scripts/html5-doctor-css-reset-stylesheet/
-   
+ * Vimos los prefijos del navegador, como podrían ser:
+   * **-webkit--** (Chrome,Safari,nuevas versiones de Opera y navegadores para IOS).
+   * **-moz-** (Firefox).
+   * **-o-** (Antiguas versiones de Opera).
+   * **-ms-** (Internet Explorer y Microsoft Edge).
  
  
  
