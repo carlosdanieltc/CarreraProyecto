@@ -187,7 +187,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    Tenemos distintas herramientas que nos pueden indicar cuándo usar dichos prefijos, algunas  pueden ser:
    * http://shouldiprefix.com/.
    * https://github.com/postcss/autoprefixer.
- * Aprendimos formas de optimizar el css como:
+ * Aprendimos formas de optimizar el CSS como:
    * Borrar reglas innecesarias y duplicadas.
    * Ordenar las propiedades por orden alfabético.
    * CSS en la cabecera.
@@ -197,6 +197,9 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    * https://www.toptal.com/developers/cssminifier/. 
    * https://www.cssportal.com/css-optimize/. 
    * https://unused-css.com/. 
+  * Aprendimos de herramientas adicionales que nos podrían ayudar en la creación del CSS, como son los preprocesadores de CSS, los cuáles son programas que nos permiten crear CSS de forma automática añadiendo funciones que el propio CSS no tiene, como el uso de variables, selectores anidados, bucles, etc. Algunas de éstas herramientas son:
+   * https://lesscss.org/.
+   * https://sass-lang.com/.
   
    
  
