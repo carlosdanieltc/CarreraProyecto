@@ -172,6 +172,8 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  
  ![Con css](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEjercicioConCssAplicado.png)
  
+ * Repasamos los pseudoselectores, entre los más usados podemos ver: **:link**, **:visited**, **:checked**, **:hover**, **:empty**, entre otros.
+ * Repasamos también los pseudoselectores de posición, entre los más usados podemos ver: **:first**, **:first-child**, **:last**, **:last-child**, **:nth-child(n)**, entre otros.
    
  
  
