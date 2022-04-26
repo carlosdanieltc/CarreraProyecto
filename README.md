@@ -184,7 +184,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    * **-o-** (Antiguas versiones de Opera).
    * **-ms-** (Internet Explorer y Microsoft Edge).
  
-   Tenemos distintas herramientas que nos pueden indicar cuándo usar dichos prefijos, algunas   pueden ser:
+    Tenemos distintas herramientas que nos pueden indicar cuándo usar dichos prefijos, algunas   pueden ser:
    * http://shouldiprefix.com/.
    * https://github.com/postcss/autoprefixer.
  * 
