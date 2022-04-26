@@ -201,7 +201,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
     * https://lesscss.org/.
     * https://sass-lang.com/.
  
-## JavaScript Profesional
+## Curso JavaScript Profesional
   
    
  
