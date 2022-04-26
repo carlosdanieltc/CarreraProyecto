@@ -139,7 +139,16 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Vimos, gracias a html 5 test: https://html5test.com/index.html que tipos de inputs estan soportados por ciertos navegadores. 
  * Realizamos un ejercicio bastante completo de lo visto hasta ahora, donde se abarcan apartados como las tablas, un formulario, distintos inputs y un poco de estilo por medio de css en línea, lo podemos ver en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/ejercicio_formularios.html
  * Vimos las etiquetas multimedia, etiquetas nuevas que se han incluido en HTML5 y pueden ser **audio/video** con sus distintos posibles atributos como **controls**: para mostrar los tipicos controles de play, pause, reverse; **autoplay**: para reproducir el audio o video apenas haya cargado la página; **loop**: para reproducir en bucle dicho audio o video; **muted**: para que la primera vez que se reproduzca dicho audio o video lo haga sin sonido por defecto; entre otros. Podemos ver un ejemplo  básico a continuación: 
+ 
 ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEtiquetasMultimedia.png)
+ * Vimos las etiquetas semánticas las cuáles sirven para que los desarrolladores, navegadores o buscadores sepan que tipo de contenido hay en ciertas secciones de la web, por ejemplo las clásicas, **header**, **footer**, **main**, **section**, **nav**, entre otros. Dichas etiquetas semánticas se comportan como un simple **div** y dan cierto significado al contenido que contienen. 
+ * Vimos un poco acerca de la accesibilidad de nuestra página web,como por ejemplo:
+   * Tener en cuenta que dicha página puede ser visitada por personas con discapacidad.
+   * Tener en cuenta las etiquetas semánticas en lugar de simples div.
+   * Añadir atributos **alt** a las imágenes.
+   * Especificar idioma de la página.
+   * Utilizar cabeceras correctamente.
+   
  
  
  
