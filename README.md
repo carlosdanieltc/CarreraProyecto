@@ -113,18 +113,18 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  
  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEstructuraBasica.png)
  * Vimos la etiqueta de cabecera **HEAD** la cual no contiene contenido de la propia página sino más bien enlacesd a hojas de estilo, scripts usados, etc. Podemos ver algunas de las siguientes etiquetas en la cabecera:
-  * **title**: Título de la página.
-  * **style**: Hojas de estilo.
-  * **meta**: Describir página web.
-  * **link**: Enlaces a archivos.
-  * **script**: Añadir ficheros JavaScript.
-  * **base**: Establecer ruta por defecto.
+   * **title**: Título de la página.
+   * **style**: Hojas de estilo.
+   * **meta**: Describir página web.
+   * **link**: Enlaces a archivos.
+   * **script**: Añadir ficheros JavaScript.
+   * **base**: Establecer ruta por defecto.
  * Vimos distintas opciones para la etiqueta de **meta** las cuáles nos pueden ayudar a mejorar lo que sería el **SEO** (Search Engine Optimization) de nuestra página, las podemos ver en el primer fichero de ejemplo que hicimos: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/estructura.html
  * Vimos distintas etiquetas básicas las cuales podemos ver en la siguiente ruta: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/EtiquetasBasicas.html.
  * Vimos los posibles tipos de rutas:
-  * Relativas: En relación al propio directorio de donde se encuentra el propio html.
-  * Absolutas: En relación al directorio raíz de nuestro disco duro.
-  * url: Dirección de internet.
+   * Relativas: En relación al propio directorio de donde se encuentra el propio html.
+   * Absolutas: En relación al directorio raíz de nuestro disco duro.
+   * url: Dirección de internet.
  
  Siendo las relativas la mejor opción para evitar cualquier tipo de fallo. Además vimos cómo poner dichos enlaces mediante la etiqueta **<a />** y las opciones que tenemos para ponerlos, que pueden ser tanto en texto como en alguna imágen.  
  * Hicimos un primer ejercicio bastante básico en el que mezclamos enlaces con imágenes además de implementar un poco de CSS en línea, que no es más que CSS implementado en la propia etiqueta con el atributo **<style>**, lo podemos ver en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/Ejercicio1Enlaces_Imagenes/ejer_img.html.
