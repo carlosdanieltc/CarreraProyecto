@@ -175,7 +175,9 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Repasamos los pseudoselectores, entre los más usados podemos ver: **:link**, **:visited**, **:checked**, **:hover**, **:empty**, entre otros.
  * Repasamos también los pseudoselectores de posición, entre los más usados podemos ver: **:first**, **:first-child**, **:last**, **:last-child**, **:nth-child(n)**, entre otros.
  * Vimos los pseudoelementos, los cuáles son palabras clave que se añaden a los selectores, nos indican una parte del elemento y permiten añadir contenido, la sintaxis sería: selector::pseudoelemento{ propiedades css }. Algunos pseudoelementos serían: **::first-line**, **::first-letter**, **::after**, **::before**, **::selected**, entre otros.
- 
+ * Aprendimos sobre los estilos por defecto y las hojas de reseteo, los estilos por defecto son estilos que cada navegador trae por defecto, por lo que nuestra página podría verse diferente dependiendo del navegador usado. Para esto utilizaremos las hojas de reseteo, las cuáles eliminan dichos estilos, por ejemplo los distintos tamaños o negrita de los distintos títulos (h1,h2, etc). Algunas hojas de reseteo más comunmente usadas pueden ser las siguientes:
+   * https://meyerweb.com/eric/tools/css/reset/
+   * https://cssdeck.com/blog/scripts/html5-doctor-css-reset-stylesheet/
    
  
  
