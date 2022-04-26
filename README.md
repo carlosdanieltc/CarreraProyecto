@@ -21,9 +21,9 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
     * **Modificado (untracked).**
     * **Preparado (staged).**
   * Aprendimos las secciones principales de un proyecto de Git.
-   1. Git Directory (Directorio de Git).
-   2. Working directory (Directorio de trabajo).
-   3. Staging area (Área de preparación). 
+    1. Git Directory (Directorio de Git).
+    2. Working directory (Directorio de trabajo).
+    3. Staging area (Área de preparación). 
   * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
   * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
     * **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
@@ -84,26 +84,26 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
 En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además de las distintas partes y estructura de una página web. Es un curso básico donde veremos lo imprescindible de ambas tecnologías.
 ### Sesión 4: 10/04/2022
  * Vimos lo que es HTML, un lenguaje de marcado donde sus siglas significan:
-  1. **H**IPER**T**EXT.
-  2. **M**ARKUP.
-  3. **L**ANGUAJE.
+   1. **H**IPER**T**EXT.
+   2. **M**ARKUP.
+   3. **L**ANGUAJE.
  * Vimos las páginas mas recomendadas a la hora de necesitar solicitar información sobre los temas a ver, que son:
   * https://www.w3schools.com/
   * https://developer.mozilla.org/es/docs/Web/HTML
   * https://developer.mozilla.org/es/docs/Web/CSS
  * Vimos lo que es CSS, un lenguaje de diseño gráfico que nos permite definir y crear la presentación de nuestro documento, donde sus siglas significan:
-  1. **C**ASCADING.
-  2. **S**TYLE.
-  3. **S**HEETS.
+   1. **C**ASCADING.
+   2. **S**TYLE.
+   3. **S**HEETS.
  * El entorno de trabajo que utilizaremos para este curso será:
- 1. **Visual Studio Code**: Como editor de código, con algunas extensiones como:
-  1.1 **Auto Close Tag**.
-  1.2 **Auto Rename Tag**.
-  1.3 **Beautify**.
-  1.4 **GitLens**.
-  1.5 **IntelliSense for CSS**.
- 2. **Git**: Para llevar el control de versiones.
- 3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox Nightly**.
+  1. **Visual Studio Code**: Como editor de código, con algunas extensiones como:
+   1.1 **Auto Close Tag**.
+   1.2 **Auto Rename Tag**.
+   1.3 **Beautify**.
+   1.4 **GitLens**.
+   1.5 **IntelliSense for CSS**.
+  2. **Git**: Para llevar el control de versiones.
+  3. **Herramientas de desarrolladores** de los navegadores **Chrome** y **FireFox Nightly**.
  * Usaremos también hojas de referencia (CHEATSHEETS) las cuáles serán:
   * https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/htmlcheatsheet.pdf
   * https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Recursos/wsu-css-cheat-sheet-gdocs.pdf
@@ -113,12 +113,12 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  
  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Capturas/CapturaEstructuraBasica.png)
  * Vimos la etiqueta de cabecera **HEAD** la cual no contiene contenido de la propia página sino más bien enlacesd a hojas de estilo, scripts usados, etc. Podemos ver algunas de las siguientes etiquetas en la cabecera:
- 1. **title**: Título de la página.
- 2. **style**: Hojas de estilo.
- 3. **meta**: Describir página web.
- 4. **link**: Enlaces a archivos.
- 5. **script**: Añadir ficheros JavaScript.
- 6. **base**: Establecer ruta por defecto.
+  * **title**: Título de la página.
+  * **style**: Hojas de estilo.
+  * **meta**: Describir página web.
+  * **link**: Enlaces a archivos.
+  * **script**: Añadir ficheros JavaScript.
+  * **base**: Establecer ruta por defecto.
  * Vimos distintas opciones para la etiqueta de **meta** las cuáles nos pueden ayudar a mejorar lo que sería el **SEO** (Search Engine Optimization) de nuestra página, las podemos ver en el primer fichero de ejemplo que hicimos: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/estructura.html
  * Vimos distintas etiquetas básicas las cuales podemos ver en la siguiente ruta: https://github.com/carlosdanieltc/CarreraProyecto/blob/main/HTML_CSS/Ficheros/EtiquetasBasicas.html.
  * Vimos los posibles tipos de rutas:
