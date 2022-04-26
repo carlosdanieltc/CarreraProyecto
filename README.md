@@ -21,9 +21,9 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
     * **Modificado (untracked).**
     * **Preparado (staged).**
   * Aprendimos las secciones principales de un proyecto de Git.
-     1. Git Directory (Directorio de Git).
-     2. Working directory (Directorio de trabajo).
-     3. Staging area (Área de preparación). 
+     * Git Directory (Directorio de Git).
+     * Working directory (Directorio de trabajo).
+     * Staging area (Área de preparación). 
   * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
   * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
     * **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
@@ -84,17 +84,17 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
 En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además de las distintas partes y estructura de una página web. Es un curso básico donde veremos lo imprescindible de ambas tecnologías.
 ### Sesión 4: 10/04/2022
  * Vimos lo que es HTML, un lenguaje de marcado donde sus siglas significan:
-   1. **H**IPER**T**EXT.
-   2. **M**ARKUP.
-   3. **L**ANGUAJE.
+   * **H**IPER**T**EXT.
+   * **M**ARKUP.
+   * **L**ANGUAJE.
  * Vimos las páginas mas recomendadas a la hora de necesitar solicitar información sobre los temas a ver, que son:
   * https://www.w3schools.com/
   * https://developer.mozilla.org/es/docs/Web/HTML
   * https://developer.mozilla.org/es/docs/Web/CSS
  * Vimos lo que es CSS, un lenguaje de diseño gráfico que nos permite definir y crear la presentación de nuestro documento, donde sus siglas significan:
-   1. **C**ASCADING.
-   2. **S**TYLE.
-   3. **S**HEETS.
+   * **C**ASCADING.
+   * **S**TYLE.
+   * **S**HEETS.
  * El entorno de trabajo que utilizaremos para este curso será:
   1. **Visual Studio Code**: Como editor de código, con algunas extensiones como:
    1.1 **Auto Close Tag**.
