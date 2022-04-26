@@ -187,7 +187,18 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    Tenemos distintas herramientas que nos pueden indicar cuándo usar dichos prefijos, algunas  pueden ser:
    * http://shouldiprefix.com/.
    * https://github.com/postcss/autoprefixer.
- * 
+ * Aprendimos formas de optimizar el css como:
+   * Borrar reglas innecesarias y duplicadas.
+   * Ordenar las propiedades por orden alfabético.
+   * CSS en la cabecera.
+   * Organizar las reglas poniendo las que tengan relación juntas.
+ 
+   Existen algunas herramientas que nos ayudan a la optimización del css, como pueden ser:
+   * https://www.toptal.com/developers/cssminifier/. 
+   * https://www.cssportal.com/css-optimize/. 
+   * https://unused-css.com/. 
+  
+   
  
  
  
