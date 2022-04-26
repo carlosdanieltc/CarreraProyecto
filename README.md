@@ -153,6 +153,15 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
  * Vimos las posibles formas de implementar css, como podría ser **en línea**, mediante la etiqueta **style** dentro de la cuál podremos aplicar css a todas las etiquetas que queramos (para esa misma página), mediante la directiva **import** la cual se especifica también dentro de la etiqueta style con el problema de que no todos los navegadores utilizan de la misma forma dicha directiva y por último y la más recomendada mediante la etiqueta **link** en la cual especificamos la ruta a nuestro archivo css el cual podremos reutilizar para distintos html. 
  * Repasamos el modelo de caja, de **línea** o de **bloque**, donde todas las cajas disponen de su **margin**, **padding**, **border** y su contenido. Donde si las cajas son de tipo en **línea** se posicionan una al lado de otra mientras haya espacio para ésta, mientras que, si son en **bloque**, se posicionan siempre una debajo de otra. 
  * Repasamos el formato de un archivo css y sus distintos selectores, como **.class**, **etiqueta**, **selector1,selector2** (aplica a todos los elementos seleccionados por ambos), **selector1 selector2** (aplica a todos los elementos de selector2 que estén dentro de selector1), **selector1>selector2** (aplica a todos los selector2 que sean hijos directos de selector1), entre otros.
+ * Repasamos las propiedades más interesantes, aunque es una lista casi interminable, aquí están algunas de las más importantes:
+   * **color:**.
+   * **background:** (Y sus distintas extensiones como -image,-color, etc).
+   * Las distintas dimensiones como, **px**, **%**, **em**, **rem**.
+   * **margin:**. (Y sus distintas extensiones como -right,-top, etc).
+   * **padding:**. (Y sus distintas extensiones como -right,-top, etc).
+   * **border:**. (Y sus distintas extensiones como -color,-style, -width, -left, etc).
+   * **font:**. (Y sus distintas extensiones como -family, -weight, -size, etc).
+   * **text:**. (Y sus distintas extensiones como -align, -decoration, -indent, etc).
    
  
  
