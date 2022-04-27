@@ -14,18 +14,18 @@ Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y 
 ## Curso Git
 En este curso aprenderemos a como utilizar y dominar Git, usando la linea de comandos, lo que nos permitirá desenvolvernos en cualquier entorno. 
 ### Sesión 1: 07/04/2022
-  * Aprendimos lo que es Git, una herramienta (de Software libre) de control de versiones la cual nos ayudará en el proceso de ciclo de vida de nuestro desarrollo de software. Diseñada por Linus Torvalds.
-  * Empezamos creando una carpeta como carpeta padre la cual utlizaríamos para las pruebas de los comandos de Git y donde guardaremos el resto de ejercicios que vayamos haciendo.
-  * Aprendimos los posibles **ESTADOS** de un fichero en GIT, como pueden ser:
+ * Aprendimos lo que es Git, una herramienta (de Software libre) de control de versiones la cual nos ayudará en el proceso de ciclo de vida de nuestro desarrollo de software. Diseñada por Linus Torvalds.
+ * Empezamos creando una carpeta como carpeta padre la cual utlizaríamos para las pruebas de los comandos de Git y donde guardaremos el resto de ejercicios que vayamos haciendo.
+ * Aprendimos los posibles **ESTADOS** de un fichero en GIT, como pueden ser:
     * **Confirmado (commited).**
     * **Modificado (untracked).**
     * **Preparado (staged).**
-  * Aprendimos las secciones principales de un proyecto de Git.
+ * Aprendimos las secciones principales de un proyecto de Git.
      * Git Directory (Directorio de Git).
      * Working directory (Directorio de trabajo).
      * Staging area (Área de preparación). 
-  * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
-  * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
+ * Instalamos Git y tkdiff, el cual es un visor gráfico, herramienta que utilizaremos para nuestro trabajo en Git.
+ * Aprendimos algunos comandos de Git para consola y su uso, como por ejemplo:
     * **git status**: Hace un listado de los archivos nuevos o a insertar en un commit.
     * **git add**: Añade **TODOS** los archivos al stagin area.
     * **git commit -m "Comentario de commit"**: Realiza un commit. Guarda una copia del estado del archivo/s en ese momento y añade el código SHA a la cabecera del repositiorio.
@@ -37,7 +37,7 @@ En este curso aprenderemos a como utilizar y dominar Git, usando la linea de com
     * **git mv fichero fichero2**: Renombrar ficheros donde fichero2 será el nuevo nombre de fichero.
     * **git show**:El comando git show puede mostrar un objeto Git de una manera simple y legible por humanos.
     * **git init**: El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git
-  * Aprendimos a lanzar el difftool por el TkDiff en lugar del visor del propio Git (ya que es muy poco visual).
+ * Aprendimos a lanzar el difftool por el TkDiff en lugar del visor del propio Git (ya que es muy poco visual).
 ### Sesión 2: 08/04/2022
  * Aprendimos con un primer ejemplo a vincular Git con GitHub por medio de un software llamado bat. Lo podemos ver a continuación:
  
@@ -202,6 +202,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
     * https://sass-lang.com/.
  
 ## Curso JavaScript Profesional
+En este curso veremos el uso esencial de javascript desde cero, el cual es un lenguaje de programación utilizado para añadir características interactivas en tu sitio web. 
 ### Sesión 7: 27/04/2022
    
  
