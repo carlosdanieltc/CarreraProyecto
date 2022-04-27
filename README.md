@@ -207,8 +207,12 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
  * Repasamos conceptos básicos de javascript, como que es un lenguaje de tipado débil y que es monohilo.
  * Vimos las que son las formas más recomendadas/usadas de incluir código javascript en nuestro html, que serían en línea o mediante la etiqueta link enlazando con el fichero javascript deseado.
  * Conocimos la página about:blank de chrome, la cuál nos llevará a una página en blanco que nos servirá para ejecutar un programa o hacer pruebas.
- * 
- 
+ * Repasamos conceptos básicos como declaración de variables y funciones.
+ * Aprendimos términos como:
+     * **Runtime**: Que proporciona características adicionales a nuestra aplicación en el tiempo de ejecución.
+     * **Scope**: Puede definirse como el alcance que una variable tendrá en tu código. En otras palabras, el scope decide a qué variables tienes acceso en cada parte del código.
+     * **Event Loop**: Es el mecanismo que permite que pueda haber concurrencia en js. Es un bucle en el que cada iteración se pasa por fases.
+     * **Garbage Collector**: Es un "recolector de basura" cuya tarea es rastrear las reservas de memoria y su utilización, para así encontrar cuándo cierta parte de la memoria ya no es necesaria, y en su momento liberarla automáticamente.
  
  
 
