@@ -202,7 +202,7 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
     * https://sass-lang.com/.
  
 ## Curso JavaScript Profesional
-  
+### Sesión 7: 27/04/2022
    
  
  
