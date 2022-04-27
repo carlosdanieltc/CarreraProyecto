@@ -197,14 +197,17 @@ En este curso aprenderemos qué es HTML, CSS y la evolución de ambos, además d
    * https://www.toptal.com/developers/cssminifier/. 
    * https://www.cssportal.com/css-optimize/. 
    * https://unused-css.com/. 
-  * Aprendimos de herramientas adicionales que nos podrían ayudar en la creación del CSS, como son los preprocesadores de CSS, los cuáles son programas que nos permiten crear CSS de forma automática añadiendo funciones que el propio CSS no tiene, como el uso de variables, selectores anidados, bucles, etc. Un ejemplo sería guardar en una variable un tipo de letra, de forma que al querer cambiar dicho tipo de letra llamemos a la variable declarada. Algunas de éstas herramientas son:
+ * Aprendimos de herramientas adicionales que nos podrían ayudar en la creación del CSS, como son los preprocesadores de CSS, los cuáles son programas que nos permiten crear CSS de forma automática añadiendo funciones que el propio CSS no tiene, como el uso de variables, selectores anidados, bucles, etc. Un ejemplo sería guardar en una variable un tipo de letra, de forma que al querer cambiar dicho tipo de letra llamemos a la variable declarada. Algunas de éstas herramientas son:
     * https://lesscss.org/.
     * https://sass-lang.com/.
  
 ## Curso JavaScript Profesional
 En este curso veremos el uso esencial de javascript desde cero, el cual es un lenguaje de programación utilizado para añadir características interactivas en tu sitio web. 
 ### Sesión 7: 27/04/2022
-   
+ * Repasamos conceptos básicos de javascript, como que es un lenguaje de tipado débil y que es monohilo.
+ * Vimos las que son las formas más recomendadas/usadas de incluir código javascript en nuestro html, que serían en línea o mediante la etiqueta link enlazando con el fichero javascript deseado.
+ * Conocimos la página about:blank de chrome, la cuál nos llevará a una página en blanco que nos servirá para ejecutar un programa o hacer pruebas.
+ * 
  
  
  
