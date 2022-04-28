@@ -220,7 +220,15 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       * **let**: Variable con alcance limitado (scope) al bloque en el que se haya declarado.
       * **const**: Constante, variable que no se puede alterar.
   * Repasamos estructuras de código y conocimos una página que explica de forma bastante gráfica como funcionan dichas estructuras, es: https://visualgo.net/en.
-  * 
+  * Conocimos nuevos métodos para arrays como:
+      * **lista.pop()**: Para extraer el último valor de un array (Lo elimina de dicha lista).
+      * **lista.push()**: Añadir x valor a un array. (Última posición, efecto cola)
+      * **lista.shift()**: Para extraer el primer valor de un array (Lo elimina de dicha lista).
+      * **lista.unshift()**: Añadir x valor a un array en la primera posición. (Efecto pila).
+  * Repasamos los distintos operadores que hay.
+  * Aprendimos lo que son las expresiones regulares, las cuáles son patrones encerrados entre baras **/**, su uso puede mejorar el rendimiento y su formato sería algo así: **patrones/modificadores**, veríamos algo asi:
+   ![Texto alternativo]()
+      
     
   
  
