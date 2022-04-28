@@ -219,8 +219,8 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       * **var**: Variable global que no entiende de bloques.
       * **let**: Variable con alcance limitado (scope) al bloque en el que se haya declarado.
       * **const**: Constante, variable que no se puede alterar.
-  * dffff
-    **ff
+  * Repasamos estructuras de código y conocimos una página que explica de forma bastante gráfica como funcionan dichas estructuras, es: https://visualgo.net/en.
+  * 
     
   
  
