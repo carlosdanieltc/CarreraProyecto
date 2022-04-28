@@ -226,8 +226,18 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       * **lista.shift()**: Para extraer el primer valor de un array (Lo elimina de dicha lista).
       * **lista.unshift()**: Añadir x valor a un array en la primera posición. (Efecto pila).
   * Repasamos los distintos operadores que hay.
-  * Aprendimos lo que son las expresiones regulares, las cuáles son patrones encerrados entre baras **/**, su uso puede mejorar el rendimiento y su formato sería algo así: **patrones/modificadores**, veríamos algo asi:
+  * Aprendimos lo que son las expresiones regulares, las cuáles son patrones encerrados entre barras **/**, su uso puede mejorar el rendimiento y su formato sería algo así: **patrones/modificadores**, por ejemplo:
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaExpresionRegular1.png)
+
+   Donde **a** es el patrón que vamos a buscar y **g** es el modificador que se encarga de buscar todas las apariciones de dicho patrón. Por otro lado hacemos una mezcla una mezcla de dichas expresiones regulares con funciones como podemos ver en el caso de **.test()**: que devuelve true o false si se encuentra el patrón; ó **.match()** que devuelve todas las apariciones del patrón buscado. 
+
+   Por otro lado existen muchos más modificadores los cuáles podemos ver en el siguiente enlace: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions
+  *
+  
+
+  
+
+
       
     
   
