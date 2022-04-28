@@ -227,7 +227,7 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       * **lista.unshift()**: Añadir x valor a un array en la primera posición. (Efecto pila).
   * Repasamos los distintos operadores que hay.
   * Aprendimos lo que son las expresiones regulares, las cuáles son patrones encerrados entre baras **/**, su uso puede mejorar el rendimiento y su formato sería algo así: **patrones/modificadores**, veríamos algo asi:
-   ![Texto alternativo]()
+   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaExpresionRegular1.png)
       
     
   
