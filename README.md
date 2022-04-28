@@ -2,14 +2,14 @@
 
 # Carrera Desarrollador Full Stack MEAN Proyecto FCT
 Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y Node.js. En ella aprenderemos a crear aplicaciones web completas. Podremos desarrollar la parte del servidor y la del cliente con JavaScript, utilizando las cuatro tecnologías que conforman este stack de desarrollo, uno de los más usados en la actualidad por miles de programadores y empresas. La carrera tiene una duración total de 42H y 10M, y está compuesta por cada uno de los siguientes cursos:
- * HTML5 y CSS3.
- * JavaScript Profesional.
- * Curso Git.
- * Angular 6.
- * Curso de Angular 4.
- * Buenas practicas en Angular.
- * Node.js y Express.
- * Curso de MongoDB.
+   * HTML5 y CSS3.
+   * JavaScript Profesional.
+   * Curso Git.
+   * Angular 6.
+   * Curso de Angular 4.
+   * Buenas practicas en Angular.
+   * Node.js y Express.
+   * Curso de MongoDB.
 
 ## Curso Git
 En este curso aprenderemos a como utilizar y dominar Git, usando la linea de comandos, lo que nos permitirá desenvolvernos en cualquier entorno. 
@@ -213,7 +213,14 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
      * **Scope**: Puede definirse como el alcance que una variable tendrá en tu código. En otras palabras, el scope decide a qué variables tienes acceso en cada parte del código.
      * **Event Loop**: Es el mecanismo que permite que pueda haber concurrencia en js. Es un bucle en el que cada iteración se pasa por fases.
      * **Garbage Collector**: Es un "recolector de basura" cuya tarea es rastrear las reservas de memoria y su utilización, para así encontrar cuándo cierta parte de la memoria ya no es necesaria, y en su momento liberarla automáticamente.
+### Sesión 8: 28/04/2022
+ * Vimos un repaso de los datos de tipo primitivo y de los objetos. 
+ * Repasamos las variables y su declaración, pudiendo ser con:
+     * **var**:
+     * **let**:
+     * **const**:
  
+  
  
 
  
