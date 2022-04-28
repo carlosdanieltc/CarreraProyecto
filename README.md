@@ -14,10 +14,11 @@ Esta carrera de Stack MEAN, está compuesta por MongoDB, ExpressJS, AngularJS y 
 ## Curso Git
 En este curso aprenderemos a como utilizar y dominar Git, usando la linea de comandos, lo que nos permitirá desenvolvernos en cualquier entorno. 
 ### Sesión 1: 07/04/2022
- * Aprendimos lo que es Git, una herramienta (de Software libre) de control de versiones la cual nos ayudará en el proceso de ciclo de vida de nuestro desarrollo de software. Diseñada por Linus Torvalds.
- * Empezamos creando una carpeta como carpeta padre la cual utlizaríamos para las pruebas de los comandos de Git y donde guardaremos el resto de ejercicios que vayamos haciendo.
- * Aprendimos los posibles **ESTADOS** de un fichero en GIT, como pueden ser:
-    * **Confirmado (commited).**
+  * Aprendimos lo que es Git, una herramienta (de Software libre) de control de versiones la cual nos ayudará en el proceso de ciclo de vida de nuestro desarrollo de software. Diseñada por Linus Torvalds.
+  * Empezamos creando una carpeta como carpeta padre la cual utlizaríamos para las pruebas de los comandos de Git y donde guardaremos el resto de ejercicios que vayamos haciendo.
+  * Aprendimos los posibles **ESTADOS** de un fichero en GIT, como pueden ser:
+    *ff
+      * **Confirmado (commited).**
     * **Modificado (untracked).**
     * **Preparado (staged).**
  * Aprendimos las secciones principales de un proyecto de Git.
