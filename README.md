@@ -216,9 +216,11 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
 ### Sesión 8: 28/04/2022
   * Vimos un repaso de los datos de tipo primitivo y de los objetos. 
   * Repasamos las variables y su declaración, pudiendo ser con:
-      * **var**:
-      * **let**:
-      * **const**:
+      * **var**: Variable global que no entiende de bloques.
+      * **let**: Variable con alcance limitado (scope) al bloque en el que se haya declarado.
+      * **const**: Constante, variable que no se puede alterar.
+  * dffff
+    **ff
     
   
  
