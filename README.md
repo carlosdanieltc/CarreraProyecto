@@ -227,6 +227,7 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       * **lista.unshift()**: Añadir x valor a un array en la primera posición. (Efecto pila).
   * Repasamos los distintos operadores que hay.
   * Aprendimos lo que son las expresiones regulares, las cuáles son patrones encerrados entre barras **/**, su uso puede mejorar el rendimiento y su formato sería algo así: **patrones/modificadores**, por ejemplo:
+  
    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaExpresionRegular1.png)
 
    Donde **a** es el patrón que vamos a buscar y **g** es el modificador que se encarga de buscar todas las apariciones de dicho patrón. Por otro lado hacemos una mezcla de dichas expresiones regulares con funciones como podemos ver en el caso de **.test()**: que devuelve true o false si se encuentra el patrón; ó **.match()** que devuelve todas las apariciones del patrón buscado. 
@@ -254,7 +255,7 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       Como podemos ver en el ejemplo, pasándo como parámetro "novice" realizaríamos una multiplicación de 0.4*100 =40, en cambio si pasáramos "pro" estaríamos haciendo 0.2*100 =20.
   *  Vimos las funciones autoinvocadas **IIFE** que son funciones que se ejecutan tan pronto como se declaran y se componen de dos partes, la primera es la función anónima, encerrado por el Operador de Agrupación (). Esto impide acceder a variables fuera del **IIFE**. La segunda parte crea la expresión de función cuya ejecución es inmediata (). Una función **IIFE** se vería de la siguiente forma:
   
-    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaIIFE.png)
+    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaIIFE.png).
 
   
 
