@@ -237,11 +237,21 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
 ### Sesión 9: 29/04/2022
   * Conocimos las llamadas **función flecha**, las cuáles son una alternativa más compacta que una expresión de función tradicional, podemos ver algunos ejemplos con los siguientes métodos:
       * **.map()**: Permite transformar los elementos de una lista y que devuelve una nueva lista con los elementos transformados.
-      ![Texto alternativo]()
+      ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaMetodoMap.png)
       * **.filter()**: Permite filtrar los elementos de un array y generar uno nuevo con todos los elementos que cumplen una determinada condición.
-      ![Texto alternativo]()
+      ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaMetodoFilter.png)
 
      Para más información sobre las funciones fecha podemos visitar: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+    * Aprendimos una serie de métodos que nos ayudan a especificarle un valor concreto a **this** (cambiar su referencia/apuntado). Éstos son:
+      * **.call**: Permite llamar a cualquier función indicándole el objeto que actuará como this dentro de la función llamada
+      * **.apply**: Funciona de igual forma que call a diferencia de que los parámetros se pasan con un array en vez de separados por comas.
+      * **.bind**: Liga permanentemente (hasta que se haga un unbine) un **this** a una función. 
+
+      En el siguiente ejemplo podemos ver la aplicación de los tres métodos, todos dan el mismo resultado en este caso, el cuándo usar uno u otro dependerá de aquello que queramos realizar:
+      ![Texto alternativo]()
+      Como podemos ver en el ejemplo, pasándo como parámetro "novice" realizaríamos una multiplicación de 0.4*100 =40, en cambio si pasáramos "pro" estaríamos haciendo 0.2*100 =20.
+    *  Vimos las funciones autoinvocadas **IIFE** que son funciones que se ejecutan tan pronto como se declaran y se componen de dos partes, la primera es la función anónima, encerrado por el Operador de Agrupación (). Esto impide acceder a variables fuera del **IIFE**. La segunda parte crea la expresión de función cuya ejecución es inmediata (). Una función **IIFE** se vería de la siguiente forma:
+    ![Texto alternativo]()
 
   
 
