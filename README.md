@@ -206,7 +206,7 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
 ### Sesión 7: 27/04/2022
   * Repasamos conceptos básicos de javascript, como que es un lenguaje de tipado débil y que es monohilo.
   * Vimos las que son las formas más recomendadas/usadas de incluir código javascript en nuestro html, que serían en línea o mediante la etiqueta link enlazando con el fichero javascript deseado.
-  * Conocimos la página about:blank de chrome, la cuál nos llevará a una página en blanco que nos servirá para ejecutar un programa o hacer pruebas.
+  * Conocimos la página **about:blank** de chrome, la cuál nos llevará a una página en blanco que nos servirá para ejecutar un programa o hacer pruebas.
   * Repasamos conceptos básicos como declaración de variables y funciones.
   * Aprendimos términos como:
       * **Runtime**: Que proporciona características adicionales a nuestra aplicación en el tiempo de ejecución.
@@ -234,8 +234,14 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
    Por otro lado existen muchos más modificadores e información sobre las expresiones regulares la cuál podemos ver en el siguiente enlace: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions
 
    También, si queremos hacer pruebas sobre las expresiones regulares disponemos de la siguiente herramienta: https://regex101.com/#javascript
-  *
-  
+### Sesión 9: 29/04/2022
+  * Conocimos las llamadas **función flecha**, las cuáles son una alternativa más compacta que una expresión de función tradicional, podemos ver algunos ejemplos con los siguientes métodos:
+      * **.map()**: Permite transformar los elementos de una lista y que devuelve una nueva lista con los elementos transformados.
+      ![Texto alternativo]()
+      * **.filter()**: Permite filtrar los elementos de un array y generar uno nuevo con todos los elementos que cumplen una determinada condición.
+      ![Texto alternativo]()
+
+     Para más información sobre las funciones fecha podemos visitar: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
   
 
