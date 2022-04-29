@@ -242,7 +242,7 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaMetodoFilter.png)
 
      Para más información sobre las funciones fecha podemos visitar: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions
-    * Aprendimos una serie de métodos que nos ayudan a especificarle un valor concreto a **this** (cambiar su referencia/apuntado). Éstos son:
+  * Aprendimos una serie de métodos que nos ayudan a especificarle un valor concreto a **this** (cambiar su referencia/apuntado). Éstos son:
       * **.call**: Permite llamar a cualquier función indicándole el objeto que actuará como this dentro de la función llamada
       * **.apply**: Funciona de igual forma que call a diferencia de que los parámetros se pasan con un array en vez de separados por comas.
       * **.bind**: Liga permanentemente (hasta que se haga un unbine) un **this** a una función. 
