@@ -255,7 +255,7 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
       Como podemos ver en el ejemplo, pasándo como parámetro "novice" realizaríamos una multiplicación de 0.4*100 =40, en cambio si pasáramos "pro" estaríamos haciendo 0.2*100 =20.
   *  Vimos las funciones autoinvocadas **IIFE** que son funciones que se ejecutan tan pronto como se declaran y se componen de dos partes, la primera es la función anónima, encerrado por el Operador de Agrupación (). Esto impide acceder a variables fuera del **IIFE**. La segunda parte crea la expresión de función cuya ejecución es inmediata (). Una función **IIFE** se vería de la siguiente forma:
   
-    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaIIFE.png).
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaIIFE.png).
 
   
 
