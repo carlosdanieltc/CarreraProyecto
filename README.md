@@ -257,12 +257,12 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
 ### Sesión 10: 03/05/2022
   * Repasamos los objetos en javascript, los cuáles tendrían una apariencia algo asi:
 
-  ![Texto alternativo]().
-  * Aprendimos como funciona y se desarrolla la herencia en javascript, lo podemos ver en el siguiente **ENLACE**. 
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaObjetos.png).
+  * Aprendimos como funciona y se desarrolla la herencia en javascript, lo podemos ver en el siguiente https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Ficheros/Herencia.js. 
   * Repasamos los controles de flujo y cómo funcionan.
   * Aprendimos los operadores ternarios, como podemos ver a continuación: 
 
-  ![Texto alternativo]().
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/JavaScript/Capturas/CapturaTernario.png).
 
   Donde, si test_mayor_100 es true devuelve "Super", de otra forma devolvería "Normal".
   * Repasamos las iteraciones en js (acción de repetir varias veces un proceso con la intención de alcanzar un resultado en concreto).       
