@@ -269,14 +269,30 @@ En este curso veremos el uso esencial de javascript desde cero, el cual es un le
   * Conocimos los repositorios awesome de github, los cuáles buscándolos con github awesome más la tecnología(JavaScript en este caso) podremos acceder a ellos y la información que contienen, como una serie de enlaces y cosas relacionadas con la tecnología buscada, podemos ver la de js aquí: https://github.com/sorrycc/awesome-javascript.
 
 ## Curso Angular 6
-Este curso proporciona los elementos básicos que necesitas para comenzar a construir aplicaciones en Angular. Primero aprenderemos cómo configurar su entorno, componentes, plantillas, enlace de datos entre componentes, configuración de rutas y consumo de APIs.
-  * Aprendimos un poco sobre qué es Angular. Angular es un framework de JavaScript de código abierto escrito en TypeScript. Su objetivo principal es desarrollar aplicaciones de una sola página.
+Este curso proporciona los elementos básicos que necesitas para comenzar a construir aplicaciones en **Angular**. Primero aprenderemos cómo configurar su entorno, componentes, plantillas, enlace de datos entre componentes, configuración de rutas y consumo de APIs.
+  * Aprendimos un poco sobre qué es **Angular**. **Angular** es un framework de **JavaScript** de código abierto escrito en **TypeScript**. Su objetivo principal es desarrollar aplicaciones de una sola página.
   * Vimos la estructura de una app Angular, siendo ésta la agrupación de muchos pequeños componentes y servicios los cuáles se engloban en los llamados **módulos**, éstos módolos serán el módulo de arranque o **root module** y nuestro módulo de acceso o **login module**. 
   * Vimos la diferencia entre un componente web y un componente de Angular.
-      * **Componente web**: Es una etiqueta HTML personalizada, reutilizable y encapsulada, dichos componentes lo que hacen es simplificar el proceso de creación de aplicaciones web y promover los principios de reutilización de código.
+      * **Componente web**: Es una etiqueta **HTML** personalizada, reutilizable y encapsulada, dichos componentes lo que hacen es simplificar el proceso de creación de aplicaciones web y promover los principios de reutilización de código.
       * **Componente de Angular**: Se compone de tres partes: **template**, **class** y **metadata**. 
   * Aprendimos lo que es **TypeScript**, que se define como superconjunto de JavaScript, por lo que es de igual forma un lenguaje de programación, open source, creado y mantenido por Microsoft. Es escalable, dispone de sistema de tipado y buenas herramientas gracias al Sistema de tipado.
-  * 
+### Sesión 11: 04/05/2022
+  * Vimos cómo crear nuestro primer proyecto angular mediante los comandos ng new nombreDelProyecto (todo esto después de haber preparado el entorno de desarrollo,tendiendo un **IDE** con el que trabajar, instalando una versión de **node.js** e instalando **angular cli** desde consola con los comandos npm install -g @angular/cli).
+  * Conocimos el comando de compilación del proyecto que es **ng serve -o**, éste comando además de compilar nuestra aplicación levanta un servidor **node** en el puerto **4200**.
+  * Conocimos ciertos ficheros que incluye Angular y para que son, como:
+      * **package.json**: Este archivo contiene todas las dependencias y dependencias de desarrollo (Se utilizan únicamente en nuestro entorno de desarrollo por lo que no van a producción) de nuestro proyecto.
+      * **karma.conf.js**: Es una librería que contiene todo lo necesario para hacer test unitarios (test para comprobar que un bloque de nuestro código funciona correctamente).
+      * **tsconfig.json**: Aquí podemos encontrar toda la configuración de **TypeScript**.
+      * **tslint.json**: Encontramos una serie de normas recomendadas a seguir por todos los desarrolladores, como tamaños de cadenas, forma de declarar funciones, etc.
+      * **angular.json**: Archivo donde podremos especificar toda la configuración de angular como dónde podrá encontrar la app, dónde podrá encontrar el fichero index, fichero de entrada, etc...
+  *  Ya que en las dos primeras lecciones haremos uso de **typescript** necesitamos instalar su librería por consola, ésto por medio del comando **npm install -g typescript**, luego para comprobar la versión lo haremos por medio del comando **tsc --version**. Seguidamente tenemos los siguientes pasos en comandos:
+      * **tsc --init**: Para iniciar la carpeta como si fuera un proyecto de typescript lo cuál nos crea un **tsconfig.json**.
+      * **tsc --watch**: Estará al tanto de cada cambio que se haga en cualquier archivo **js** que este en nuestra carpeta y lo va a compilar a **ts**. 
+  * Repasamos completo el uso básico de **TypeScript**, vimos las distintas declaraciones de tipos, declaración de clases, herencia, métodos genéricos, iteradores, módulos, decoradores, condicionales, etc. Todo lo visto y aprendido lo podemos vr en el siguiente enlace: **ENLACEEEEEEEE**.
+
+
+
+
 
   
  
