@@ -288,7 +288,11 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
   *  Ya que en las dos primeras lecciones haremos uso de **typescript** necesitamos instalar su librería por consola, ésto por medio del comando **npm install -g typescript**, luego para comprobar la versión lo haremos por medio del comando **tsc --version**. Seguidamente tenemos los siguientes pasos en comandos:
       * **tsc --init**: Para iniciar la carpeta como si fuera un proyecto de typescript lo cuál nos crea un **tsconfig.json**.
       * **tsc --watch**: Estará al tanto de cada cambio que se haga en cualquier archivo **js** que este en nuestra carpeta y lo va a compilar a **ts**. 
-  * Repasamos completo el uso básico de **TypeScript**, vimos las distintas declaraciones de tipos, declaración de clases, herencia, métodos genéricos, iteradores, módulos, decoradores, condicionales, etc. Todo lo visto y aprendido lo podemos vr en el siguiente enlace: **ENLACEEEEEEEE**.
+  * Repasamos todo el uso básico de **TypeScript**, vimos las distintas declaraciones de tipos, declaración de clases, herencia, métodos genéricos, iteradores, módulos, decoradores, condicionales, etc. Todo lo visto y aprendido lo podemos ver en el directorio trabajado, donde tendremos los distintos ficheros, todo en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/tree/main/Angular%206/Ficheros/playgrounds/typescript/typescriptI.
+
+  A continuación podemos ver una comparación de **TypeScript** con **JavaScript**: 
+
+  ![Texto alternativo]().
 
 
 
