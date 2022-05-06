@@ -295,11 +295,19 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaComparacionTs%26Js.png).
   * Nos adentramos un poco más en las partes y estructura de un componente, la cuál se vería  algo así:
 
-   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaComparacionTs%26Js.png).
+   ![Texto alternativo]().
+### Sesión 12: 06/05/2022
+  * Vimos cómo crear un componente mediante consola yendo a la carpeta del proyecto, src, app y ejecutando el comando **ng generate component nombreDelComponente**.
+  * Vimos más detalladamente lo que es un módulo, que es una especie de "caja" que engloba a los componentes y tiene ciertos servicios asociados. Sirve para organizar dichos componentes en bloques lógicos, además de las directivas, servicios, extender las funcionalidades con bibliotecas externas importándolas en el propio módulo, entre otras funcionalidades que veremos y detallaremos más adelante.
+  * Nos adentramos un poco más en las partes y estructura de un módulo, la cuál se vería algo así:
 
-      * **Template**:
-      * **Class**:
-      * **Metadata**:
+  ![Texto alternativo]().
+
+  * Vimos cómo o crear un módulo por medio de comandos, yendo a la carpeta de nuestro proyecto y ejecutar el comando **ng generate module nombreDelModulo**.
+  //min 10:40
+
+   
+
 
 
 
