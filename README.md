@@ -292,7 +292,15 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
 
   A continuación podemos ver una comparación de **TypeScript** con **JavaScript**: 
 
-  ![Texto alternativo]().
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaComparacionTs%26Js.png).
+  * Nos adentramos un poco más en las partes y estructura de un componente, la cuál se vería  algo así:
+
+   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaComparacionTs%26Js.png).
+
+      * **Template**:
+      * **Class**:
+      * **Metadata**:
+
 
 
 
