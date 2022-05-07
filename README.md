@@ -304,7 +304,29 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaEstructuraDeUnModulo.png).
 
   * Vimos cómo o crear un módulo por medio de comandos, yendo a la carpeta de nuestro proyecto y ejecutar el comando **ng generate module nombreDelModulo**.
-  //min 10:40
+### Sesión 13: 07/05/2022
+  * Vimos cómo utilizar un componente que esté dentro de un módulo en otro módulo. Primero que nada deberemos indicar ese módulo que hemos creado en el **app.module.ts** para que Angular lo reconozca, luego deberemos colorcar en el fichero de **módulo.ts** del módulo donde queramos hacer el importe el **exports** correspondiente del componente que queremos. 
+  * Vimos con detalle las partes del módulo:
+      * **Class**: Se debe marcar como **export** para que otros módulos puedan leerla y el nombre de la clase suele ir por el nombre que tenga el fichero, en el caso del ejemplo que estamos utilizando sería **AppModule**, por lo que todo quedaría **export class Appodule{}**.
+      * La clase encargada para indicar que sea un módulo es **@NgModule** la cuál puede tener una serie de propiedades dentro como por ejemplo:
+        * **declarations: []**: Es para declarar todos los componentes directivas o Pipes (herramienta que nos permite modificar o transformar la información presentada en pantalla) que sean pertenecientes al módulo.
+        * **import: []**: Indicamos aquí los módulos a importar, por defecto se importará el módulo de inicio de la app, llamado **BrowserModule**.
+        * **providers: []**: Es cualquier cosa que puede crear o devolver un servicio.
+  * Dimos inicio a un proyecto para el curso llamado **aweather** el cuál iremos viendo más adelante, para este proyecto utilizaremos una librería de componentes de Angular llamada **Angular Material** y la podremos instalar en el siguiente enlace: https://material.angular.io/. Para instalar dichar librería tenemos que ir a la carpeta del proyecto en el que la deseamos usar y ejecutar el comando **ng add @angular/material**.
+  * Instalamos una serie de iconos para utilzar en el proyecto, bajo el comando **npm install weathericons** y otros bajo el comando **npm i @fortawesome/fontawesome-free-webfonts**.
+  * Conocimos que existen una serie de eventos los cuáles podemos implementar a la clase de nuestro componente, algunos de ellos son: 
+      * **OnChanges**: Se ejecuta cada vez que de produzca un cambio.
+      * **OnInit**: Se ejecuta cada vez que se instancia el componente.
+      * **AfterContentInit**: Se ejecuta cuando angular termina de inicializar el componente. 
+      * **AfterViewChecked**: Se ejecuta una sola vez cuándo angular termina de inicializar la vista del componente.
+      * **OnDestroy**: Se ejecuta justo antes de que angular destruya el componente.
+
+      Entre los que más utlizaremos al menos durante nuestro proyecto están: **OnInit**, **OnDestroy** y el **OnChanges**.
+  *
+
+
+
+
 
    
 
