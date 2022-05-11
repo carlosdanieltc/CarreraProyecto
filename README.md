@@ -332,19 +332,19 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
   * Profundizamos en los tipos de enlazados:
       * **Interpolation binding**: Lo usamos siempre que necesitemos comunicar propiedades desde la clase del componente hasta el **template**. Dicha comunicación se hace simplemente con el uso de la doble llave y dentro dicha propiedad, de la siguiente forma: **{{propiedad}}**. 
 
-      ![Interpolation binding]().
+      ![Interpolation binding](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaInterpolationBinding.png).
 
       * **Property binding**: Nos da la posibilidad de asignar un valor a una propiedad de un elemento del **template**, su uso se hace colocando la propiedad entre corchetes **[propiedad]**, teniendo en cuenta que no en todas las propiedades se puede. A parte, tendremos que tener en cuenta que **Property binding** es de una única dirección, del padre al hijo. Se vería de la siguiente forma:
 
-      ![Property binding]().
+      ![Property binding](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaPropertyBinding.png).
 
       * **Event binding**: Nos permite crear un evento que ocurre en el **template** y comunicarlo con la clase. Se define con el nombre del evento entre paréntesis **()**. Se vería así:
 
-      ![Event binding]().
+      ![Event binding](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaEventBinding.png).
 
       * **Two-way binding**: Nos permite modificar el valor de una propiedad de forma bidireccional, de forma que cuando nosotros modificamos el valor de una propiedad en la vista el valor también se actualiza en el modelo de datos. De forma que se actualizaría del padre al hijo y del hijo al padre, se vería de la siguiente forma: 
 
-      ![Two-way binding]().
+      ![Two-way binding](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaTwoWayBinding.png).
 
 
 
