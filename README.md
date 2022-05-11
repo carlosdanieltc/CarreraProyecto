@@ -322,7 +322,33 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
       * **OnDestroy**: Se ejecuta justo antes de que angular destruya el componente.
 
       Entre los que más utlizaremos al menos durante nuestro proyecto están: **OnInit**, **OnDestroy** y el **OnChanges**.
-  *
+### Sesión 14: 09/05/2022
+  * Aprendimos que podemos dotar a las vistas de interacción y de lógica. Para ello vamos a usar las distintas formas de hacer data binding o enlazado de datos. Existen cuatro tipo de enlazado de datos que aprenderemos durante las siguientes lecciones:
+      * Interpolation binding.
+      * Property binding.
+      * Event binding.
+      * Two way binding.
+### Sesión 15: 11/05/2022
+  * Profundizamos en los tipos de enlazados:
+      * **Interpolation binding**: Lo usamos siempre que necesitemos comunicar propiedades desde la clase del componente hasta el **template**. Dicha comunicación se hace simplemente con el uso de la doble llave y dentro dicha propiedad, de la siguiente forma: **{{propiedad}}**. 
+
+      ![Interpolation binding]().
+
+      * **Property binding**: Nos da la posibilidad de asignar un valor a una propiedad de un elemento del **template**, su uso se hace colocando la propiedad entre corchetes **[propiedad]**, teniendo en cuenta que no en todas las propiedades se puede. A parte, tendremos que tener en cuenta que **Property binding** es de una única dirección, del padre al hijo. Se vería de la siguiente forma:
+
+      ![Property binding]().
+
+      * **Event binding**: Nos permite crear un evento que ocurre en el **template** y comunicarlo con la clase. Se define con el nombre del evento entre paréntesis **()**. Se vería así:
+
+      ![Event binding]().
+
+      * **Two-way binding**: Nos permite modificar el valor de una propiedad de forma bidireccional, de forma que cuando nosotros modificamos el valor de una propiedad en la vista el valor también se actualiza en el modelo de datos. De forma que se actualizaría del padre al hijo y del hijo al padre, se vería de la siguiente forma: 
+
+      ![Two-way binding]().
+
+
+
+
 
 
 

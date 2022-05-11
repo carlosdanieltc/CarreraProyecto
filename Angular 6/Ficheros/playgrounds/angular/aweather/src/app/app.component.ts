@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'aweather';
+
+  cityName= 'app';
+  sidebarMode = 'side';
+
+  public search(cityName: string): void{
+    this.cityName= cityName;
+  }
 }
