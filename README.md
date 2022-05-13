@@ -346,6 +346,82 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
 
       ![Two-way binding](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaTwoWayBinding.png).
 
+### Sesión 16: 13/05/2022
+  * Conocimos las directivas estructurales que son aquellas que modifican la estructura del **HTML** de un componente. 
+  * Tratamos de reestructurar nuestro proyecto para directivas adaptándolo de igual forma que en video pero encontramos un error en una propiedad del archivo **app.component.html** donde no nos permite asignar un valor **string** a un **'MatDrawerMode'**, intentamos cambiar el tipo del valor u omitiendo ese paso pero se generan otro tipo de errores por lo que esperemos que más adelante con el avance del proyecto se solucione (aunque desconocemos si será incompatibilidad de versiones). De momento dejamos comentado el propio error en el mismo fichero línea 3 y el error generado por comentarlo que es en el mismo fichero línea 1.
+  * Vimos que existen tres tipos de directivas:
+      * **ngIf**: La usamos para añadir o quitar elementos del DOM en función a una expresión. Funciona como un **if** en cualquier lenguaje de programación.
+
+      ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgIf.png).
+      * **ngFor**: La usaremos para trabajar con Arrays. Funciona como un **for** en cualquier lenguaje de programación y la podemos definir de la siguiente forma.
+
+       ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgFor.png).
+      * **ngSwitch**: Funciona igual que un **switch** en cualquier lenguaje de programación, vamos a ver un ejemplo.
+
+       ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgSwicth.png).
+
+  * Vimos que a parte de las directivas vistas anteriormente (**directivas estructurales**) existen otro tipo de directivas llamadas **directivas de atributo**. Angular tiene dos directivas de atributo por defecto:
+      * **ngClass**: Nos permite asignar valores de estilos a un objeto del DOM. Por ejemplo vamos a modificar el color de la temperatura de nuestro weather-card. 
+
+      Agregamos un nuevo método en el componente weather-card.component.ts:
+
+      ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaMetodoPruebaNgStyle.png).
+
+      Y ahora incoporporamos la directiva de atributo en el archivo weather-card.component.html
+
+      ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgStyle.png).
+      * **ngStyle**: Nos permite asignar una clase al elemento del DOM de forma dinámica. Por ejemplo, agregamos el siguiente css al archivo **weather-search.component.css**:
+
+      ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaCSSNgClass.png).
+
+      Y cambiamos el html del botón de búsqueda para usar estas clases según el usuario escriba en el input.
+
+       ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgClass.png).
+
+  * Aprendimos que existen unas **directivas personalizadas** y aprendimos a crearlas, que al igual que los componentes y los módulos se pueden crear a través de **angularCli**, en nuestro ejemplo con el proyecto creamos las siguientes directivas: 
+      * **ng generate directive dropdown --export true**.
+      * **ng generate directive dropdowntoggle --export true**. 
+
+      Donde **--export true** es simplemente para indicar que nos la cree como exportable directamente. 
+
+      Al crear dichas directivas pudimos ver que tienen la misma estructura que un componente o un módulo: 
+
+      ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaEstructuraDeUnaDirectiva.png).
+
+  * Profundizamos en las **Pipes** o **tuberías** de **Angular** las cuáles nos permiten modificar la forma en la que se van a visualizar los datos en nuestro template y así hacerlos más legibles para el usuario. Un ejemplo que ocurre en todas las aplicaciones es a la hora de mostrar una fecha, no es lo mismo poner 01/01/2018 que 01-Ene-18. La forma en la que luce una pipe sería algo así:
+
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaPipe.png).
+
+  Angular ya tiene tuberías creadas de base, disponibles para que podamos utilizarlas en cualquier template:
+
+      * **DataPipe**: Sirve para formatear fechas.
+      * **UpperCasePipe**: Sirve para poner en mayúsculas el valor.
+      * **LowerCasePipe**: Sirve para poner en minúsculas el valor.
+      * **CurrencyPipe**:
+      * **PercentPipe**: Sirve para formatear números, con ésta pipe Angular nos añade el símbolo de porcentaje.
+      * **DecimalPipe**: Sirve para formatear números.
+      * **SlicePipe**: Nos sirve para hacer el conocido **substring** de un texto mediante un pipe o para cortar un array.
+
+      Podemos encontrar el listado completo y configuración en **Angular pipes**. Todas funcionan igual, detrás del valor escribimos el carácter **“|”**, seguido del nombre de pipe y su configuración.
+  
+  *  Ya que vimos las **pipes** que angular nos trae por defecto aprendimos a crear nosotros nuestras propias **pipes** mediante el siguiente comando: **ng generate pipe celsius --export true**. Además vimos que la estructura es igual que las vistas anteriormente:
+
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaPipeEstructura.png).
+
+  * Aprendimos lo que son los servicios, un conjunto de métodos para gestionar diferentes tipos de datos relacionados con la app. Con un servicio le quitamos responsabilidad a un componente de hacer cosas que no le corresponden como podría ser la consulta de datos, log, gestionar la sesión del usuario, etc; llevando todo esto al servicio. La forma de crear un servicio por consola sería: **ng generate service weather**. La estructura de un servicio sería:
+
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaServicioEstructura.png).
+
+  * Empezamos a ver las rutas con funcionalidad de nuestra aplicación. Para ello vamos a utilizar el módulo Router de Angular, con la que podemos implementar la navegación a través de URL.
+  * **NOTA**: Actualmente nuestra aplicación compila correctamente pero se encuentra completamente en blanco, de momento no se ha encontrado el problema por lo que se continuará con el proyecto siguiento los pasos que se indican para ver si con las futuras modificaciones conseguimos ver nuevamente el contenido del proyecto.
+  * Avanzando en el proyecto hemos dado con otro error desconocido en el archivo **login-card.component.html** en la línea 6 por el **loginForm**, error el cuál al tutor no le da, como hicimos anteriormente comentaremos el código para poder compilar y seguiremos con el proyecto.
+  * Aprendimos lo que son las **guardias**, las cuáles nos permiten determinar ciertos comportamientos en las rutas de nuestra aplicación. Definimos las guardias con un **servicio** el cual puede implementar **CanActivate**, **CanActivateChild**, **CanDeactivate**, **Resolve**. Nosotros en el proyecto vamos a implementar el **CanActivate** que es el que más se suele implementar ya que nos permite acceder a una ruta y controlar los permisos que les podemos dar a los usuarios en nuestra app.
+
+    
+
+
+
+
 
 
 

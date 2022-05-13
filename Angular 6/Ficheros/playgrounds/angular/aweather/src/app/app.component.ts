@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  cityName= 'app';
-  sidebarMode = 'side';
-
-  public search(cityName: string): void{
-    this.cityName= cityName;
-  }
+  
 }
