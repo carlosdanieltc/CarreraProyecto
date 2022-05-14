@@ -11,6 +11,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   exports: [
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     MatInputModule,
     MatSidenavModule,
     // Forms
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   declarations: []
 })

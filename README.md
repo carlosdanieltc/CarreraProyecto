@@ -358,7 +358,7 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
        ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgFor.png).
       * **ngSwitch**: Funciona igual que un **switch** en cualquier lenguaje de programación, vamos a ver un ejemplo.
 
-       ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgSwicth.png).
+       ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaNgSwitch.png).
 
   * Vimos que a parte de las directivas vistas anteriormente (**directivas estructurales**) existen otro tipo de directivas llamadas **directivas de atributo**. Angular tiene dos directivas de atributo por defecto:
       * **ngClass**: Nos permite asignar valores de estilos a un objeto del DOM. Por ejemplo vamos a modificar el color de la temperatura de nuestro weather-card. 
@@ -416,6 +416,25 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
   * **NOTA**: Actualmente nuestra aplicación compila correctamente pero se encuentra completamente en blanco, de momento no se ha encontrado el problema por lo que se continuará con el proyecto siguiento los pasos que se indican para ver si con las futuras modificaciones conseguimos ver nuevamente el contenido del proyecto.
   * Avanzando en el proyecto hemos dado con otro error desconocido en el archivo **login-card.component.html** en la línea 6 por el **loginForm**, error el cuál al tutor no le da, como hicimos anteriormente comentaremos el código para poder compilar y seguiremos con el proyecto.
   * Aprendimos lo que son las **guardias**, las cuáles nos permiten determinar ciertos comportamientos en las rutas de nuestra aplicación. Definimos las guardias con un **servicio** el cual puede implementar **CanActivate**, **CanActivateChild**, **CanDeactivate**, **Resolve**. Nosotros en el proyecto vamos a implementar el **CanActivate** que es el que más se suele implementar ya que nos permite acceder a una ruta y controlar los permisos que les podemos dar a los usuarios en nuestra app.
+### Sesión 17: 14/05/2022
+  * Aprendimos a crear formularios con **Angular**, vimos que hay dos formas diferentes para crear formularios, template driven y reactive forms. Nosotros vamos a centrarnos en lo fundamental de los formularios reactivos de **Angular forms**. Lo primero que tendríamos que hacer es importar en nuestro módulo **materia-forms.module** el módulo **ReactiveFormsModule**, luego definimos los **FormControls** que tenemos en el formulario y el **FormGroup** para finalmente modificar el template **login-card.component.html**. Veamos a continuación:
+
+  Imports e nuestro módulo:
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios1.png).
+
+  Definición del formulario:
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios2.png).
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios3.png).
+
+  Modificación **login-card.component.html**:
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios4.png).
+  **NOTA**: Con la clase **Validators** podemos poner una serie de validaciones-restricciones, para indicar campos requeridos, cantidad mínima de caracteres, etc. 
+  **NOTA2**: Con esta modificación en el **login-card.component.html** hemos corregido un error del que hablamos anteriormente en dicho archivo.
+  * Ya con nuestra aplicación lista podremos desplegarla en cualquier servidor, para ello Angular nos ofrece el siguiente comando **ng build --prod**, dicho comando con el prefijo **--prod** (el cuál ha sido deprecado) lo que indica es que tiene que compilar nuestra aplicación para producción, quitando los comentarios, minificando nuestros archivos y chequeando si tenemos algún error en nuestro código, de ésta forma aseguramos que nuestra aplicación pese lo menos posible para que sea más rápida. 
+  * Hemos terminado el curso y con ello nuestro proyecto de **Angular**, a parte de nuestro proyecto el cuál se encuentra en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/tree/main/Angular%206/Ficheros/playgrounds/angular/aweather dejamos también un enlace al repositorio del tutor en el cuál se encuentra el proyecto original y completamente funcional con el cuál realizamos el curso: https://github.com/OpenWebinarsNet/Angular-desde-cero.
+
+
+
 
     
 

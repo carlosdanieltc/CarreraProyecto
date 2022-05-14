@@ -3,27 +3,39 @@
     <img src="https://drive.google.com/uc?id=1UCuwEFL2_wANdGi7_6N7_xs5YDoBSzuq" alt="Aweather" title="Aweather" />
   </div>
   <div class="border-top-input">
-    <!-- <form #loginForm="ngForm" (ngSubmit)="loginSubmit(loginForm)">
+    <form [formGroup]="loginGroup" (submit)="loginSubmit(loginGroup)">
       <mat-card-content>
         <mat-grid-list cols="1" rowHeight="60px">
           <mat-grid-tile>
             <mat-form-field>
-              <input matInput placeholder="Usuario" name="user" [(ngModel)]="user">
+              <input matInput placeholder="Usuario" formControlName="user">
+              <mat-error *ngIf="loginGroup.get('user').hasError('required')">
+                El usuario es requerido
+              </mat-error>
+              <mat-error *ngIf="loginGroup.get('user').hasError('email')">
+                El email del usuario no es válido
+              </mat-error>
             </mat-form-field>
           </mat-grid-tile>
           <mat-grid-tile>
             <mat-form-field>
-              <input matInput placeholder="Contraseña" name="password" [(ngModel)]="password">
+              <input matInput type="password" placeholder="Contraseña" formControlName="password">
+              <mat-error *ngIf="loginGroup.get('password').hasError('required')">
+                El password es requerido
+              </mat-error>
+              <mat-error *ngIf="loginGroup.get('password').hasError('minlength')">
+                El password no es válido
+              </mat-error>
             </mat-form-field>
           </mat-grid-tile>
         </mat-grid-list>
         <mat-card-actions class="mat-card-button-login">
-          <button mat-raised-button type="submit" class="login-button mat-primary">
+          <button mat-raised-button type="submit" [disabled]="loginGroup.invalid" class="login-button mat-primary">
             <i class="fas fa-key fa-lg"></i>
           </button>
         </mat-card-actions>
       </mat-card-content>
-    </form> -->
+    </form>
   </div>
 </mat-card>
 
