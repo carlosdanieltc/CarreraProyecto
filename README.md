@@ -431,6 +431,7 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
   Modificación **login-card.component.html**:
   
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios4.png).
+  
   **NOTA**: Con la clase **Validators** podemos poner una serie de validaciones-restricciones, para indicar campos requeridos, cantidad mínima de caracteres, etc. 
   **NOTA2**: Con esta modificación en el **login-card.component.html** hemos corregido un error del que hablamos anteriormente en dicho archivo.
   * Ya con nuestra aplicación lista podremos desplegarla en cualquier servidor, para ello Angular nos ofrece el siguiente comando **ng build --prod**, dicho comando con el prefijo **--prod** (el cuál ha sido deprecado) lo que indica es que tiene que compilar nuestra aplicación para producción, quitando los comentarios, minificando nuestros archivos y chequeando si tenemos algún error en nuestro código, de ésta forma aseguramos que nuestra aplicación pese lo menos posible para que sea más rápida. 
