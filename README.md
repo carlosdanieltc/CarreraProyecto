@@ -419,19 +419,34 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
 ### Sesión 17: 14/05/2022
   * Aprendimos a crear formularios con **Angular**, vimos que hay dos formas diferentes para crear formularios, template driven y reactive forms. Nosotros vamos a centrarnos en lo fundamental de los formularios reactivos de **Angular forms**. Lo primero que tendríamos que hacer es importar en nuestro módulo **materia-forms.module** el módulo **ReactiveFormsModule**, luego definimos los **FormControls** que tenemos en el formulario y el **FormGroup** para finalmente modificar el template **login-card.component.html**. Veamos a continuación:
 
-  Imports e nuestro módulo:
+  Imports de nuestro módulo:
+
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios1.png).
 
   Definición del formulario:
+
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios2.png).
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios3.png).
 
   Modificación **login-card.component.html**:
+
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios4.png).
+
   **NOTA**: Con la clase **Validators** podemos poner una serie de validaciones-restricciones, para indicar campos requeridos, cantidad mínima de caracteres, etc. 
   **NOTA2**: Con esta modificación en el **login-card.component.html** hemos corregido un error del que hablamos anteriormente en dicho archivo.
   * Ya con nuestra aplicación lista podremos desplegarla en cualquier servidor, para ello Angular nos ofrece el siguiente comando **ng build --prod**, dicho comando con el prefijo **--prod** (el cuál ha sido deprecado) lo que indica es que tiene que compilar nuestra aplicación para producción, quitando los comentarios, minificando nuestros archivos y chequeando si tenemos algún error en nuestro código, de ésta forma aseguramos que nuestra aplicación pese lo menos posible para que sea más rápida. 
   * Hemos terminado el curso y con ello nuestro proyecto de **Angular**, a parte de nuestro proyecto el cuál se encuentra en el siguiente enlace: https://github.com/carlosdanieltc/CarreraProyecto/tree/main/Angular%206/Ficheros/playgrounds/angular/aweather dejamos también un enlace al repositorio del tutor en el cuál se encuentra el proyecto original y completamente funcional con el cuál realizamos el curso: https://github.com/OpenWebinarsNet/Angular-desde-cero.
+
+## Curso Angular 4
+En este curso aprenderemos los conceptos principales de angular, que cubrirá tanto la primera versión con la nueva arquitectura, angular 2,cómo la versión angular 4.
+  * Vimos una introducción básica de angular 4 donde repasamos conceptos vistos en el curso y otros que ya sabíamos como los componentes, estructura de un componente, vista/template, databinding, directivas, metadata, servicios, dependencias y los módulos.
+### Sesión 18: 15/05/2022
+  * Creamos un primer proyecto para trabajar llamado **agenda** y repasamos nuevamnete la estructura básica de un proyecto de **Angular**.
+  * Vimos un repaso básico de **TypeScript** y su sintaxis al igual como vimos en el curso anterior de **Angular 6**, como sus declaraciones de variables, declaración de funciones, bucles, arrays, clases, objetos, etc.
+  * Repasamos las interfaces en **TypeScript**, los niveles de visibilidad, decoradores y constructores.
+
+
+
 
 
 
