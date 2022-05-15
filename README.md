@@ -419,19 +419,34 @@ Este curso proporciona los elementos básicos que necesitas para comenzar a cons
 ### Sesión 17: 14/05/2022
   * Aprendimos a crear formularios con **Angular**, vimos que hay dos formas diferentes para crear formularios, template driven y reactive forms. Nosotros vamos a centrarnos en lo fundamental de los formularios reactivos de **Angular forms**. Lo primero que tendríamos que hacer es importar en nuestro módulo **materia-forms.module** el módulo **ReactiveFormsModule**, luego definimos los **FormControls** que tenemos en el formulario y el **FormGroup** para finalmente modificar el template **login-card.component.html**. Veamos a continuación:
 
+<<<<<<< HEAD
   Imports de nuestro módulo:
 
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios1.png).
 
   Definición del formulario:
 
+=======
+  Imports e nuestro módulo:
+  
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios1.png).
+
+  Definición del formulario:
+  
+>>>>>>> 775d01cbdb46334b6c4f7d3dd9f76a7191256f47
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios2.png).
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios3.png).
 
   Modificación **login-card.component.html**:
+<<<<<<< HEAD
 
   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios4.png).
 
+=======
+  
+  ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%206/Capturas/CapturaFormularios4.png).
+  
+>>>>>>> 775d01cbdb46334b6c4f7d3dd9f76a7191256f47
   **NOTA**: Con la clase **Validators** podemos poner una serie de validaciones-restricciones, para indicar campos requeridos, cantidad mínima de caracteres, etc. 
   **NOTA2**: Con esta modificación en el **login-card.component.html** hemos corregido un error del que hablamos anteriormente en dicho archivo.
   * Ya con nuestra aplicación lista podremos desplegarla en cualquier servidor, para ello Angular nos ofrece el siguiente comando **ng build --prod**, dicho comando con el prefijo **--prod** (el cuál ha sido deprecado) lo que indica es que tiene que compilar nuestra aplicación para producción, quitando los comentarios, minificando nuestros archivos y chequeando si tenemos algún error en nuestro código, de ésta forma aseguramos que nuestra aplicación pese lo menos posible para que sea más rápida. 
