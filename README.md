@@ -444,6 +444,35 @@ En este curso aprenderemos los conceptos principales de angular, que cubrirá ta
   * Creamos un primer proyecto para trabajar llamado **agenda** y repasamos nuevamnete la estructura básica de un proyecto de **Angular**.
   * Vimos un repaso básico de **TypeScript** y su sintaxis al igual como vimos en el curso anterior de **Angular 6**, como sus declaraciones de variables, declaración de funciones, bucles, arrays, clases, objetos, etc.
   * Repasamos las interfaces en **TypeScript**, los niveles de visibilidad, decoradores y constructores.
+### Sesión 19: 17/05/2022
+  * Nuestro proyecto **agenda** será para crear un calendario de eventos y actividades, empezamos a crear nuestros primeros componentes con el comando que ya conocemos **ng generate component nombre**.
+  * Repasamos la **Interpolación (binding)** y su sintaxis, que como recordamos del curso anterior de **Angular 6** es la automatización del contenido de nuestro componente para que al momento de producirse cambios en los valores éstos se vean reflejados automáticamente en el template.
+  * Repasamos los **Event binding** y su sintaxis, que al contrario del **Property binding** que actualiza los cambios del componente al template, actualiza los cambios del template al componente al producirse el evento que queramos.
+  * Repasamos las **directivas estructurales** y las **Pipes**, vistas también en el curso anterior.
+  * Repasamos los **servicios** vistos también anteriormente y creamos el primero para nuestro proyecto con el comando **mg g s Talk**.
+  * Conocimos el concepto de **Singleton**, el cuál es un patrón de diseño de creación que garantiza que tan solo exista un objeto de su tipo y proporciona un único punto de acceso a él para cualquier otro código. El patrón tiene prácticamente los mismos pros y contras que las variables globales.
+  * Conocimos **RxJS**, es una librería para programación reactiva usando **obvservables** (Angular utiliza **observables** para manejar operaciones asíncronas. La idea básica es desacoplar, diferenciar bien, la creación/emisión de **eventos** de la consumición de esos **eventos**. Un **observable** es un objeto con un método subscribe que toma como parámetro un observador y **nos retorna una suscripción**. El observador se suscribe al **observable** y cada vez que el **observable** emite un valor, el observador es notificado.).
+  * **NOTA**: A esta altura del proyecto encontramos varios errores en clases y varios imports donde aparece el mensaje de que no se encuentran los módulos, parece ser debido a que muchas funciones de Angular 4 ya han sido deprecadas o cambiadas ya que no se ha logrado conseguir una solución ni en el propio curso ni en otro sitio web. Seguiremos avanzando con el proyecto y siguiendo los pasos así como hicimos en el curso anterior donde luego poco a poco se fueron resolviendo problemas. Como solución a la mayoria de estos errores buscamos la opción equivalente a aquello que está deprecado, algunas veces consiguiéndolo y otras no.
+### Sesión 20: 18/05/2022
+  * Solucionamos un par de errores de imports que parecen estar deprecados, tenemos:
+      *  **import { Http } from '@angular/http';** usaremos---> **import { HttpClient } from '@angular/common/http';**.
+      * **import { HttpModule } from '@angular/http';** usaremos---> **import { HttpClientModule } from '@angular/common/http';**.
+  * Vimos los distintos y más habituales operadores de **Rx** que son:
+      * **De creación**: create, of/from, interval, range, empty, throw.
+      * **Operadores de transformación**: buffer/window, groupBy,
+      map, flatMap.
+      * **Operadores de filtrado**: debounce, distinct, filter, firts, sample, skip, take.
+      * **Operadores de combinación**: combineLatest, concat, merge, race, zip, startWith, switch.
+
+    **NOTA**: Los operadores vistos están deprecados (o casi todos) por lo que simplemente se mencionan porque es lo que se ha visto en el vídeo.
+  * Vimos que en **Rx** existen dos tipos de **observables**:
+      * **Cold observables**: Un **observable frío** sería por ejemplo uno que esté construido a partir de un array ya que cada vez que lo invoquemo nos devolverá todos los elementos del array uno a uno.
+      * **Hot observables**: Se trata de **observables** a los cuales tu te subscribes en un momento determinado y **NO** nos devuelven todos los datos emitidos desde el principio sino que nos devuelven los datos a partir del momento en el que nos subscribimos.
+
+      Un ejemplo para esto es comparar los **Cold observables** con un dvd cuyo contenido puedes ver en cualquier momento desde el principio mientras que el **Hot observables** sería un cine donde lo que vamos a ver inicia en un determinado momento (**momento en el que nos subscribimos**). 
+  * 
+
+
 
 
 
