@@ -476,8 +476,8 @@ En este curso aprenderemos los conceptos principales de angular, que cubrirá ta
   * Profundizamos y repasamos los módulos de igual forma que en el curso anterior.
   * Aprendimos cómo navegar entre diferentes páginas, cargar componentes y módulos de diferentes formas. Para soportar diferentes páginas en nuestra app debemos definir un array de rutas donde indiquemos el componente a cargar cuando se seleccione una cadena (se seleccione un enlace) dichos enlaces se hacen por una etiqueta especial llamada **<routerlink>** que estarán asociados al array de rutas, luego hay que definir el espacio en donde cargan esos componentes, dicho espacio se marca como un **<routeroutlet>**. Nuestro array de rutas lo definimos y configuramos en nuestro **app.module** y luego en nuestro **app.component** indicaremos la etiqueta de **<routeroutlet>** y la propia ruta con el **<routerlink>**. Veamos a continuación un ejemplo: 
 
-    ![Texto alternativo]().
-    ![Texto alternativo]().
+    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%204/Capturas/CapturaArrayRoutes.png).
+    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%204/Capturas/CapturaEnlaceRoutes.png).
 
 
 
