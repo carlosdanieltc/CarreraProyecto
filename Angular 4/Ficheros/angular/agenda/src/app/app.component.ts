@@ -3,9 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template:`
-    <h1>
+  <p>Navegación</p>
+  <a routerLink="/talks" routerLinkActive="active">Talks</a>
+  <a routerLink="/new-talk" routerLinkActive="active">Add New Talk</a>
+    <router-outlet></router-outlet>
+    <!-- <h1>
       {{talk?.title}}
-    <h1>
+    <h1> -->
     <app-talks></app-talks>
   `
   ,

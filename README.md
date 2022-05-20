@@ -470,7 +470,17 @@ En este curso aprenderemos los conceptos principales de angular, que cubrirá ta
       * **Hot observables**: Se trata de **observables** a los cuales tu te subscribes en un momento determinado y **NO** nos devuelven todos los datos emitidos desde el principio sino que nos devuelven los datos a partir del momento en el que nos subscribimos.
 
       Un ejemplo para esto es comparar los **Cold observables** con un dvd cuyo contenido puedes ver en cualquier momento desde el principio mientras que el **Hot observables** sería un cine donde lo que vamos a ver inicia en un determinado momento (**momento en el que nos subscribimos**). 
-  * 
+### Sesión 20: 20/05/2022
+  * Repasamos así como vimos en el curso anterior los dos tipos de enfoque que existen para los formularios **template driven** y **reactive forms**.
+  * Repasamos el **two way data binding** y los **Validators** visto igualmente en el curso anterior.
+  * Profundizamos y repasamos los módulos de igual forma que en el curso anterior.
+  * Aprendimos cómo navegar entre diferentes páginas, cargar componentes y módulos de diferentes formas. Para soportar diferentes páginas en nuestra app debemos definir un array de rutas donde indiquemos el componente a cargar cuando se seleccione una cadena (se seleccione un enlace) dichos enlaces se hacen por una etiqueta especial llamada **<routerlink>** que estarán asociados al array de rutas, luego hay que definir el espacio en donde cargan esos componentes, dicho espacio se marca como un **<routeroutlet>**. Nuestro array de rutas lo definimos y configuramos en nuestro **app.module** y luego en nuestro **app.component** indicaremos la etiqueta de **<routeroutlet>** y la propia ruta con el **<routerlink>**. Veamos a continuación un ejemplo: 
+
+    ![Texto alternativo]().
+    ![Texto alternativo]().
+
+
+
 
 
 

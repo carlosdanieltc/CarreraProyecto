@@ -22,7 +22,8 @@ export class TalkService {
 
     return this.http.get(
       'http//data.agenda.wedeploy.io/talks', {params})
-      .map(x => x.json())
+      .map((x: { json: () => any; }) => x.json())
+      .map((x: { documents: any; }) => x.documents)
       .retry(10);
     )
   }
@@ -30,7 +31,7 @@ export class TalkService {
   getAllTalks(): Observable<Array<any>>{
     return this.http
     .get('http://data.agenda.wedeploy.io/talks')
-    .map(x => x.json())
+    .map((x: { json: () => any; }) => x.json())
     .retry(10)
   }
 }
