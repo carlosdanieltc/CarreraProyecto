@@ -470,7 +470,7 @@ En este curso aprenderemos los conceptos principales de angular, que cubrirá ta
       * **Hot observables**: Se trata de **observables** a los cuales tu te subscribes en un momento determinado y **NO** nos devuelven todos los datos emitidos desde el principio sino que nos devuelven los datos a partir del momento en el que nos subscribimos.
 
       Un ejemplo para esto es comparar los **Cold observables** con un dvd cuyo contenido puedes ver en cualquier momento desde el principio mientras que el **Hot observables** sería un cine donde lo que vamos a ver inicia en un determinado momento (**momento en el que nos subscribimos**). 
-### Sesión 20: 20/05/2022
+### Sesión 21: 20/05/2022
   * Repasamos así como vimos en el curso anterior los dos tipos de enfoque que existen para los formularios **template driven** y **reactive forms**.
   * Repasamos el **two way data binding** y los **Validators** visto igualmente en el curso anterior.
   * Profundizamos y repasamos los módulos de igual forma que en el curso anterior.
@@ -478,6 +478,57 @@ En este curso aprenderemos los conceptos principales de angular, que cubrirá ta
 
     ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%204/Capturas/CapturaArrayRoutes.png).
     ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Angular%204/Capturas/CapturaEnlaceRoutes.png).
+
+### Sesión 21: 22/05/2022
+  * Conocimos los **Guards** los cuáles en angular son filtros que aplicamos para antes o después de navegar a una ruta. Se usan típicamente para autenticación, precarga (carga de ciertos componentes antes de navegar a una parte de nuestra aplicación). Son clases que implementan una interfaz, hay diferentes interfaces dependiendo del ciclo de vida en el cuál nos queremos unir, el más típico para añadir seguridad por una validación es el **CanActivate** el cuál se lanza antes de navegar a la url. En el **app.module** de debe implementar dicha clase, tanto su **import** como en nuestro **array de rutas** y en los **providers**.
+  * Conocimos el concepto de **Lazy Loading** que es la acción de retrasar o "desacelerar" la carga del sitio web y de los objetos que lo componen hasta que sean realmente requeridos por el usuario. Se lleva a cabo cambiando las rutas indicadas anteriormente en el **app.module.ts** en nuestro array de rutas donde se indicaba la ruta a un componente, haciéndola esta vez a un módulo para luego dentro de cada módulo gestionar con un array de rutas cada componente que le pertenece. 
+  * Vimos algunas buenas prácticas de angular como que no es recomendable tener clases y métodos de más de 30 líneas, seguir la nomeclatura de escritura como el **camelCase** y los nombres de los archivos, por ejemplo en lugar de llamar a nuestro archivo **TalkListComponent.ts** lo normal sería separar las palabras por **-** y el tipo de archivo por un **.** por lo que quedaría **Talk-list.component.ts**; siempre implementar **onError** en observables.
+  * Vimos algunas mejores de rendimiento que podemos aplicar como:
+      * Comprimir imágenes.
+      * Minificar css/js.
+      * Usar objetos inmutables. (dato u objeto, una vez creado, no puede ser cambiado),
+      * Usar **AOT** (compilación anticipada), ejecutando el comando **ng build --prod** se nos genera nos genera los ficheros de **ts** y **js** en una carpeta **dist** que ya tiene eliminado el compilador y sólo tienen los ficheros que estamos usando, eliminando el resto, dejando la aplicación lista para subir a producción,
+  * **NOTA FINAL**: En este curso se ha comentado menos que en el resto debido a que muchos de los contenidos ya fueron vistos en el curso anterior, además de que muchas clases y métodos utilizados han sido deprecados por lo que no se ha realizado al 100% las pruebas con todo, en algunos casos conseguimos una alternativa a la opción deprecada pero en muchos otros no, de igual forma dejamos un enlace del proyecto en el que estuvimos haciendo pruebas: https://github.com/carlosdanieltc/CarreraProyecto/tree/main/Angular%204/Ficheros/angular/agenda además de un enlace al repositorio del tutor del curso donde podremos ver también el proyecto: https://github.com/OpenWebinarsNet/openwebinars-angular.
+
+## Curso de buenas prácticas en Angular
+En este curso aprenderemos y pondremos en práctica las guías necesarias para poder asegurar la legibilidad, mantenibilidad y escalabilidad en una aplicación de Angular empresarial de gran tamaño refactorizando una aplicación completa de forma práctica.
+  * Recomendación de tener instalado **Angular Cli** antes de iniciar cualquier proyecto ya que nos ahorrará escribir mucho código y nos permitirá partir de un esquema de aplicación avanzado y capaz de facilitar los flujos de desarrollo. Además nos ofrecerá una serie de herramientas ya configuradas y listas para hacer tareas como, depuración, testing o deploy. La instalación la ejecutamos como vimos en el curso anterior mediante el comando **npm install -g @angular/cli**.
+  * Nos adentramos un poco más en los ficheros que trae angular por defecto, analizando el fichero **angular.json**, analizamos sus propiedades y aprendimos la función de algunas como:
+      * **outputPath**: Es el directorio donde angular va a ejecutar toda nuestra app.
+      * **index**: Punto de entrada de nuestra web.
+      * **main.ts**: Donde podemos cambiar la ruta para que el punto de entrada sea otro.
+      * **assets**: Donde tendremos iconos, imágenes, etc.
+      * **styles**: Donde indicamos la ruta a hojas de estilos para aplicar dichos estilos de forma general. (normalmente se suele coger e introducir dentro de la carpeta de **assets**).
+  * Aprendimos que es **Tslint** y a utilizarlo en la línea de comandos. **Tslint** es una extensión estática de análisis de **TypeScript** que chequea la mantenibilidad de nuestro código y si está correctamente estructurado. **NOTA**: por defecto angular no nos trae el fichero **Tslint** como sí lo hace en el vídeo entendemos que por tema de versiones, por lo que haciendo pruebas hemos visto que mediante el comando **ng lint** nos preguntará si queremos generarlo. **NOTA2**: haciendo pruebas con el comando mencionado anteriormente la instalación por algún motivo no funciona del todo, nos generó algunos cambios en el fichero **angular.json** pero no como esperábamos por lo que algunos pasos referidos a **Tslint** los vamos a omitir hasta que se solucione el error.
+  * Empezamos la refactorización de una aplicación la cuál se realiza con la misma app que hicimos en el curso de **Angular 6**, debido a que la hecha por nosotros no funcionaba del todo correcto vamos a utilizar la disponible en el repositorio del curso para la refactorización, la podemos conseguir en el siguiente enlace: https://github.com/OpenWebinarsNet/Angular-buenas-practicas/tree/master/aweather-refactor-inicial. 
+  * Vimos la nomeclatura a usar en el nombre de los ficheros, mencionada ya anteriormente en el final del curso anterior de **Angular 4**.
+  * Conocimos el **Principio de responsabilidad única**, es el primero de los cinco que componen **SOLID** (principios de programación, podemos ver más sobre esto en el siguiente enlace: https://profile.es/blog/principios-solid-desarrollo-software-calidad/). El **Principio de responsabilidad única** dicta que un objeto, clase o archivo debe realizar una única cosa, teniendo sólo una única responsabilidad.
+  * Vimos el orden para hacer correctamente una clase, empezando por todas sus variables, seguidas del constructor, las implementaciones que vaya a tener el componente, métodos públicos y por último los métodos privados.
+  * Creamos una oganización de carpetas, donde habrán 4 grandes bloques y dentro de ellos la distrubución necesaria para todo, esos cuatro bloques son:
+      * **components**.
+      * **core**.
+      * **services**.
+      * **ui-controls**.
+  
+  Veamos a continuación la organización de todo:
+
+    ![Texto alternativo]().
+    ![Texto alternativo]().
+
+  * Aplicamos **Lazy loading** a los módulos simplemente con añadir la línea **path: 'home', loadChildren: 'app/components/login/components/login.module#LoginModule'** al fichero **app-routing.module.ts**.
+  * Una vez refactorizamos nuestra app vimos cómo optimizamos nuestro bundle yendo a la carpeta del proyecto y ejecutando el comando **npm install -g source-map-explorer** para instalar una librería de optimización llamada **Source map explorer**.
+  * Compilamos el archivo para producción como en los cursos anteriores, ejecutando el comando **ng build --prod**.
+  * **NOTA FINAL**: Hemos tenido de igual forma que en cursos anteriores fallos con los imports entendemos que por versiones ya que si instalamos el proyecto del tutor del curso da error en los mismos sitios. Podemos ver el proyecto en el que trabajamos en el siguiente enlace:
+  ![Texto alternativo]().
+
+## Curso Nojde.js y Express
+En este curso aprenderemos cómo ​funciona **Node.js**,​ ​y ​su ​gestor ​de ​**paquetes NPM​**. Con este curso de **Node.js** y **Express** desarrolaremos nuestra propia ​web, ​utilizando ​los ​mecanismos ​que ​nos ​ofrece ​**Node.js**, ​para ​luego, ​pasar ​a utilizar **​Express** ​para ​desarrollar ​tu ​web, ​y ​tu **​API ​Rest**.
+### Sesión 23: 22/05/2022
+  * 
+
+
+
+
 
 
 

@@ -10,10 +10,12 @@ import { TalkComponent } from './talk/talk.component';
 import { TalkService } from './talk.service';
 import { NewTalkComponent } from './new-talk/new-talk.component';
 import { RouterModule } from '@angular/router';
+import { LoggedInGuard } from './logged-in.guard';
 
 const routes= [
   {'path': 'talks', component: TalksComponent},
-  {'path': 'new-talk', component: NewTalkComponent}
+  {'path': 'new-talk', component: NewTalkComponent,
+  canActivate: [LoggedInGuard]}
 ];
 
 @NgModule({
@@ -29,9 +31,9 @@ const routes= [
     HttpClientModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [{provide: TalkService,useFactory: ()=> new TalkService()},
-    {provide: TalkService,useClass: TalkService},
-    TalkService],
+  providers: [LoggedInGuard],
+
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
