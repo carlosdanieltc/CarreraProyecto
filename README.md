@@ -519,12 +519,15 @@ En este curso aprenderemos y pondremos en práctica las guías necesarias para p
   * Una vez refactorizamos nuestra app vimos cómo optimizamos nuestro bundle yendo a la carpeta del proyecto y ejecutando el comando **npm install -g source-map-explorer** para instalar una librería de optimización llamada **Source map explorer**.
   * Compilamos el archivo para producción como en los cursos anteriores, ejecutando el comando **ng build --prod**.
   * **NOTA FINAL**: Hemos tenido de igual forma que en cursos anteriores fallos con los imports entendemos que por versiones ya que si instalamos el proyecto del tutor del curso da error en los mismos sitios. Podemos ver el proyecto en el que trabajamos en el siguiente enlace:
-  ![Texto alternativo]().
+  https://github.com/carlosdanieltc/CarreraProyecto/tree/main/Buenas%20Practicas%20Angular/Ficheros/aweather-refactor-inicial y el proyecto finalizado por el tutor del curso en su repositorio ubicado en el siguiente enlace: https://github.com/OpenWebinarsNet/Angular-buenas-practicas/tree/master/aweather-refactor-final
 
 ## Curso Nojde.js y Express
 En este curso aprenderemos cómo ​funciona **Node.js**,​ ​y ​su ​gestor ​de ​**paquetes NPM​**. Con este curso de **Node.js** y **Express** desarrolaremos nuestra propia ​web, ​utilizando ​los ​mecanismos ​que ​nos ​ofrece ​**Node.js**, ​para ​luego, ​pasar ​a utilizar **​Express** ​para ​desarrollar ​tu ​web, ​y ​tu **​API ​Rest**.
 ### Sesión 23: 22/05/2022
-  * 
+  * Repasamos el concepto de **NodeJs** el cuál es un entorno de ejecución para **Javascript** basado en el motor V8 de Chrome.
+  * Vimos el significado de **NPM**, **Node Package Manager**, es el gestor de paquetes que nos ofrece **NodeJS**. Nos permite instalar paquetes de JS, compartirlos, distribuirlos, manejar dependencias y recibir feedback de otros usuarios.
+  * Vimos el para qué se suele usar **Node**, normalmente se suele utilizar para la creación de un chat debido a sus funcionalidades pero también lo podemos usar para desarrollar nuestra **Api Rest** o hasta desarrollar un servidor proxy.
+
 
 
 
