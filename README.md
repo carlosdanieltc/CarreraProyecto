@@ -527,29 +527,7 @@ En este curso aprenderemos cómo ​funciona **Node.js**,​ ​y ​su ​gesto
   * Repasamos el concepto de **NodeJs** el cuál es un entorno de ejecución para **Javascript** basado en el motor V8 de Chrome.
   * Vimos el significado de **NPM**, **Node Package Manager**, es el gestor de paquetes que nos ofrece **NodeJS**. Nos permite instalar paquetes de JS, compartirlos, distribuirlos, manejar dependencias y recibir feedback de otros usuarios.
   * Vimos el para qué se suele usar **Node**, normalmente se suele utilizar para la creación de un chat debido a sus funcionalidades pero también lo podemos usar para desarrollar nuestra **Api Rest** o hasta desarrollar un servidor proxy.
-  * Repasamos la creación de un proyecto base con un simple comando de **npm init** para generar el package.json.
-  * Repasamos:
-      * Las variables de js, **var**,**let**,**const**.
-      * **Template string** (sintaxis para meter una variable en una cadena).
-      * Objetos.
-      * Arrow functions (funciones flecha **=>**).
-      * Parámetros por defecto.
-  * Conocimos **Babel** el cuál es un compilador para **js** que transforma el código **ECMAScript** en una versión de **JavaScript**. Para su instalación ejecutamos en consola el comando **npm install --save babel-core babel-cli**. **NOTA**: No nos queda del todo claro como quedaría el comando de instalación ya que en la descripción del video indica el que mencionamos anteriormente pero en el propio video utiliza el comando **npm install --save-dev babel babel-preset-env babel register babel-cli**. **NOTA2**: En el video crea un archivo con el comando **touch .babelrc** pero nuestra consola no lo reconoce por lo que tuvimos que crearlo a mano en el propio **IDE**. **NOTA3**: Hemos tenido una serie de problemas al seguir el video ya que se saltan muchos pasos por lo que tenemos actualmente un error al querer arrancar nuestra aplicación con babel, intentaremos solucionarlo pero parece bien o por falta de un archivo o por algún deprecated.
 
-### Sesión 24: 23/05/2022
-  * **NOTA**: Hemos seguido con los siguientes videos del curso pero hay mucha falta de información ya que dan cosas por sabidas y saltan una gran cantidad de pasos a la hora de realizar los ejercicios. Actualmente estamos haciendo pruebas en la carpeta ![Texto alternativo](). la cuál no hemos podido probar aún desconocemos por qué exactamente, seguiremos haciendo pruebas en el resto del curso a ver si lo damos por solucionado. **NOTA2**: En el curso va creando para cada video un proyecto nuevo e instalando repetidamente **babel** y la carpeta**node_modules**, para evitar esto trabajamos todo en un mismo proyecto el cuál se va modificando para adaptarse a lo nuevo que vamos haciendo.
-  * Hemos aprendido a realizar distintas funciones con **Node** pero que no han quedado muy claras debido a que no hemos podido hacer pruebas con ninguna, además de lo explicado anteriormente de que se salta mucha información en los videos, de igual forma, hemos visto y hecho pruebas con:
-      * **Manejo de eventos**.
-      * **Programación asíncrona**.
-      * **Modularización**.
-      * Vimos también una introducción a los **Sockets**.
-      * Vimos manejo de errores.
-  * Conocimos **Nodemon** el cuál es un paquete público que nos permite trabajar y monitorizar nuestros cambios en nuestra aplicación de **Node**. Para instalarlo ejecutamos en consola el comando **npm install --save-dev nodemon**, luego tendremos que crear un fichero para configurarlo el cuál se llamará **nodemon.json**.
-  * Repasamos el módulo **HTTP** el cuál es un módulo interno de **NodeJS**. Nos centraremos en **http.createServer** para crear nuestro servidor web.
-  * Conocimos **MongoDB** la cual es una base de datos orientada a documentos, como se suele decir, una base de datos no relacional/no sql. Para conectarnos a **MongoDB** vamos a utilizar una librería llamada **Mongoose** la cuál es un **ODM** (Object Data Model) que permite modelar los datos de Mongo para utilizar en nuestro código; para instalar dicha librería debemos ejecutar el comando **npm install mongoose**.
-  * Vimos cómo utilizar **PostgresSQL** la cuál es una base de datos relacional y que usa el estándar de **SQL**, para conectarnos a  **Postgress** utilizaremos al igual que con **MongoDB** un **ORM**, en este caso **Sequelize**. Una vez descargado **PostgresSQL** debemos instalar **Sequelize** con el comando **npm install sequelize**.
-  * Conocimos **Express**, es un framework web transigente, escrito en **JavaScript** y alojado dentro del entorno de ejecución **NodeJS**.
-  * Conocimos lo que es un **Middleware**, es un software que brinda servicios y funciones comunes a las aplicaciones, además de lo que ofrece el sistema operativo. Generalmente, se encarga de la gestión de los datos, los servicios de aplicaciones, la mensajería, la autenticación y la gestión de las API.
 
 
 
