@@ -527,11 +527,7 @@ En este curso aprenderemos cómo ​funciona **Node.js**,​ ​y ​su ​gesto
   * Repasamos el concepto de **NodeJs** el cuál es un entorno de ejecución para **Javascript** basado en el motor V8 de Chrome.
   * Vimos el significado de **NPM**, **Node Package Manager**, es el gestor de paquetes que nos ofrece **NodeJS**. Nos permite instalar paquetes de JS, compartirlos, distribuirlos, manejar dependencias y recibir feedback de otros usuarios.
   * Vimos el para qué se suele usar **Node**, normalmente se suele utilizar para la creación de un chat debido a sus funcionalidades pero también lo podemos usar para desarrollar nuestra **Api Rest** o hasta desarrollar un servidor proxy.
-<<<<<<< HEAD
   * Repasamos la creación de un proyecto base con un simple comando de **npm init** para generar el package.json.
-=======
-    * Repasamos la creación de un proyecto base con un simple comando de **npm init** para generar el package.json.
->>>>>>> c72b49eda2869116f9d959f949f55dfe1ac370a9
   * Repasamos:
       * Las variables de js, **var**,**let**,**const**.
       * **Template string** (sintaxis para meter una variable en una cadena).
