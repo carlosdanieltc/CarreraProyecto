@@ -511,9 +511,9 @@ En este curso aprenderemos y pondremos en práctica las guías necesarias para p
       * **ui-controls**.
   
   Veamos a continuación la organización de todo:
-
-    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Buenas%20Practicas%20Angular/Capturas/CapturaCarpetasOrganizacion.png).
-    ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Buenas%20Practicas%20Angular/Capturas/CapturaCarpetasOrganizacion2.png).
+  
+   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Buenas%20Practicas%20Angular/Capturas/CapturaCarpetasOrganizacion.png).
+   ![Texto alternativo](https://github.com/carlosdanieltc/CarreraProyecto/blob/main/Buenas%20Practicas%20Angular/Capturas/CapturaCarpetasOrganizacion2.png).
 
   * Aplicamos **Lazy loading** a los módulos simplemente con añadir la línea **path: 'home', loadChildren: 'app/components/login/components/login.module#LoginModule'** al fichero **app-routing.module.ts**.
   * Una vez refactorizamos nuestra app vimos cómo optimizamos nuestro bundle yendo a la carpeta del proyecto y ejecutando el comando **npm install -g source-map-explorer** para instalar una librería de optimización llamada **Source map explorer**.
